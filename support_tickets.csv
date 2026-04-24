@@ -1,0 +1,1001 @@
+ticket_id,customer_id,issue_type,status,agent_name,created_date,resolved_date,resolution_time_days,customer_satisfaction,priority,channel,region
+1,1212,Account Locked,Escalated,Agent A,2025-12-10,2025-12-10,0,3,Medium,Chat,India
+2,1696,Payment Failure,Pending,Agent B,2026-02-04,2026-02-06,2,2,Medium,Call,UK
+3,1001,Bug,Pending,Agent B,2026-02-23,2026-02-25,2,4,Low,Call,UK
+4,1989,Payment Failure,Pending,Agent A,2025-11-19,2025-11-23,4,2,High,Email,UK
+5,1086,Slow Performance,Resolved,Agent A,2026-01-10,2026-01-12,2,3,High,Chat,Canada
+6,1299,Slow Performance,Resolved,Agent C,2026-01-20,2026-01-25,5,3,Low,Chat,UK
+7,1549,Account Locked,Escalated,Agent A,2025-12-09,2025-12-10,1,4,Medium,Email,India
+8,1913,Bug,Resolved,Agent C,2026-01-01,2026-01-06,5,4,High,Email,India
+9,1074,Bug,Resolved,Agent A,2026-03-10,2026-03-14,4,1,High,Call,Canada
+10,1503,Payment Failure,Escalated,Agent B,2025-11-06,2025-11-09,3,1,Low,Chat,Canada
+11,1623,Payment Failure,Pending,Agent B,2026-04-01,2026-04-03,2,5,Medium,Chat,India
+12,1596,Bug,Pending,Agent C,2026-03-03,2026-03-07,4,3,High,Call,Canada
+13,1552,Login Issue,Escalated,Agent C,2025-12-17,2025-12-17,0,4,Medium,Chat,US
+14,1726,Login Issue,Pending,Agent C,2025-12-26,2025-12-29,3,5,Low,Call,US
+15,1895,Payment Failure,Escalated,Agent A,2025-11-09,2025-11-09,0,5,Medium,Chat,UK
+16,1056,Bug,Resolved,Agent B,2026-04-05,2026-04-09,4,4,High,Chat,Canada
+17,1292,Login Issue,Resolved,Agent A,2025-11-13,2025-11-13,0,5,Medium,Email,US
+18,1198,Bug,Pending,Agent C,2025-12-07,2025-12-10,3,5,Medium,Call,US
+19,1407,Login Issue,Resolved,Agent C,2026-03-26,2026-03-26,0,5,Medium,Email,US
+20,1050,Login Issue,Pending,Agent D,2025-12-29,2026-01-01,3,2,Low,Chat,US
+21,1489,Bug,Resolved,Agent B,2026-02-18,2026-02-23,5,3,Low,Email,Canada
+22,1595,Slow Performance,Pending,Agent B,2025-10-25,2025-10-27,2,5,Low,Chat,US
+23,1988,Account Locked,Resolved,Agent B,2025-10-31,2025-11-03,3,5,Low,Call,US
+24,1386,Slow Performance,Pending,Agent A,2026-02-18,2026-02-22,4,1,High,Email,UK
+25,1678,Payment Failure,Pending,Agent C,2026-02-07,2026-02-11,4,5,Low,Chat,UK
+26,1719,Account Locked,Pending,Agent A,2026-03-19,2026-03-21,2,2,Medium,Email,Canada
+27,1073,Payment Failure,Pending,Agent B,2026-01-29,2026-02-03,5,1,Medium,Email,US
+28,1327,Payment Failure,Resolved,Agent D,2026-04-02,2026-04-07,5,4,High,Call,US
+29,1334,Payment Failure,Pending,Agent C,2026-04-11,2026-04-15,4,4,Low,Call,US
+30,1774,Bug,Pending,Agent B,2026-02-19,2026-02-23,4,5,Medium,Email,UK
+31,1318,Login Issue,Pending,Agent D,2026-02-26,2026-02-28,2,1,Medium,Email,India
+32,1805,Account Locked,Pending,Agent A,2026-04-04,2026-04-04,0,1,Medium,Email,India
+33,1612,Slow Performance,Escalated,Agent B,2026-02-14,2026-02-18,4,1,Low,Email,Canada
+34,1229,Slow Performance,Resolved,Agent B,2026-01-19,2026-01-20,1,3,Low,Chat,India
+35,1938,Slow Performance,Escalated,Agent C,2026-04-04,2026-04-06,2,5,Low,Call,UK
+36,1182,Bug,Resolved,Agent A,2026-02-17,2026-02-17,0,3,High,Call,US
+37,1480,Slow Performance,Pending,Agent A,2026-01-23,2026-01-26,3,1,Low,Chat,India
+38,1804,Account Locked,Escalated,Agent D,2026-02-20,2026-02-20,0,4,Low,Email,UK
+39,1902,Payment Failure,Resolved,Agent D,2025-10-19,2025-10-20,1,2,Medium,Call,UK
+40,1079,Bug,Pending,Agent A,2025-12-14,2025-12-17,3,1,Low,Email,UK
+41,1937,Account Locked,Escalated,Agent D,2026-01-04,2026-01-06,2,4,High,Call,US
+42,1652,Bug,Resolved,Agent B,2026-02-03,2026-02-08,5,1,High,Chat,UK
+43,1845,Account Locked,Pending,Agent C,2025-10-22,2025-10-24,2,3,Medium,Call,Canada
+44,1982,Slow Performance,Pending,Agent B,2026-01-20,2026-01-20,0,3,Low,Email,UK
+45,1520,Slow Performance,Resolved,Agent C,2025-12-25,2025-12-26,1,5,High,Chat,US
+46,1026,Account Locked,Resolved,Agent B,2025-11-02,2025-11-05,3,5,Medium,Call,India
+47,1433,Payment Failure,Escalated,Agent A,2025-10-27,2025-10-29,2,5,Medium,Call,US
+48,1047,Login Issue,Escalated,Agent D,2026-01-23,2026-01-26,3,2,Low,Call,US
+49,1078,Login Issue,Escalated,Agent B,2025-12-09,2025-12-13,4,2,Low,Email,India
+50,1472,Account Locked,Pending,Agent A,2026-04-03,2026-04-04,1,4,High,Email,US
+51,1381,Account Locked,Pending,Agent A,2026-02-11,2026-02-11,0,1,Low,Call,India
+52,1927,Login Issue,Pending,Agent B,2025-11-01,2025-11-04,3,4,High,Chat,US
+53,1304,Slow Performance,Resolved,Agent B,2026-03-06,2026-03-11,5,1,High,Chat,UK
+54,1808,Slow Performance,Escalated,Agent A,2025-11-22,2025-11-23,1,1,Medium,Call,Canada
+55,1749,Slow Performance,Resolved,Agent B,2026-02-18,2026-02-19,1,2,High,Chat,India
+56,1317,Bug,Escalated,Agent A,2026-03-13,2026-03-16,3,1,Low,Email,Canada
+57,1662,Bug,Resolved,Agent D,2025-12-16,2025-12-19,3,1,High,Email,Canada
+58,1700,Slow Performance,Resolved,Agent C,2026-04-07,2026-04-09,2,1,High,Email,India
+59,1335,Slow Performance,Escalated,Agent D,2026-03-02,2026-03-03,1,1,High,Chat,India
+60,1367,Bug,Escalated,Agent D,2026-03-29,2026-03-31,2,5,High,Email,US
+61,1357,Account Locked,Pending,Agent C,2025-11-06,2025-11-11,5,4,Low,Call,Canada
+62,1106,Bug,Pending,Agent C,2025-12-29,2026-01-03,5,5,Low,Email,UK
+63,1100,Payment Failure,Pending,Agent A,2026-03-13,2026-03-17,4,1,High,Chat,US
+64,1799,Bug,Pending,Agent C,2025-12-31,2025-12-31,0,3,High,Chat,US
+65,1215,Payment Failure,Pending,Agent A,2026-03-11,2026-03-15,4,2,Low,Email,Canada
+66,1917,Slow Performance,Pending,Agent B,2026-04-03,2026-04-06,3,2,High,Email,Canada
+67,1431,Payment Failure,Resolved,Agent A,2025-10-30,2025-11-01,2,3,Low,Call,India
+68,1531,Login Issue,Resolved,Agent B,2026-02-20,2026-02-20,0,3,Medium,Call,UK
+69,1273,Login Issue,Resolved,Agent C,2026-02-21,2026-02-24,3,5,Low,Chat,India
+70,1268,Login Issue,Resolved,Agent B,2025-10-31,2025-11-05,5,4,Low,Email,US
+71,1584,Payment Failure,Pending,Agent C,2025-12-01,2025-12-04,3,4,High,Email,Canada
+72,1465,Login Issue,Pending,Agent C,2026-02-01,2026-02-06,5,5,Low,Call,India
+73,1288,Login Issue,Escalated,Agent B,2026-03-25,2026-03-25,0,4,High,Call,India
+74,1699,Slow Performance,Resolved,Agent B,2025-11-18,2025-11-22,4,5,High,Email,Canada
+75,1629,Login Issue,Escalated,Agent A,2026-02-04,2026-02-06,2,2,Medium,Email,UK
+76,1663,Payment Failure,Resolved,Agent B,2025-10-20,2025-10-23,3,2,Medium,Call,Canada
+77,1419,Account Locked,Escalated,Agent C,2026-02-19,2026-02-24,5,1,Low,Email,UK
+78,1012,Account Locked,Resolved,Agent B,2025-12-19,2025-12-22,3,3,Low,Email,India
+79,1377,Slow Performance,Pending,Agent B,2026-04-13,2026-04-14,1,3,Low,Call,US
+80,1941,Account Locked,Resolved,Agent C,2026-02-28,2026-03-04,4,2,High,Call,Canada
+81,1821,Slow Performance,Escalated,Agent C,2026-01-23,2026-01-27,4,5,High,Email,Canada
+82,1036,Bug,Pending,Agent A,2025-12-08,2025-12-11,3,5,Low,Email,US
+83,1776,Account Locked,Pending,Agent B,2026-01-26,2026-01-28,2,4,Medium,Call,Canada
+84,1237,Payment Failure,Escalated,Agent A,2026-03-17,2026-03-21,4,1,Low,Chat,US
+85,1399,Payment Failure,Escalated,Agent C,2025-10-29,2025-11-02,4,1,Medium,Chat,Canada
+86,1043,Slow Performance,Pending,Agent C,2026-04-07,2026-04-10,3,2,Low,Chat,US
+87,1114,Login Issue,Escalated,Agent C,2026-03-12,2026-03-17,5,4,High,Call,India
+88,1603,Slow Performance,Pending,Agent C,2026-01-18,2026-01-18,0,3,High,Email,US
+89,1801,Login Issue,Pending,Agent A,2026-03-31,2026-04-04,4,4,Medium,Email,India
+90,1915,Slow Performance,Pending,Agent B,2026-02-27,2026-03-04,5,3,High,Call,UK
+91,1173,Payment Failure,Resolved,Agent C,2026-03-11,2026-03-15,4,4,High,Call,India
+92,1677,Login Issue,Pending,Agent A,2025-11-26,2025-11-29,3,4,Low,Call,India
+93,1532,Payment Failure,Resolved,Agent B,2025-11-23,2025-11-27,4,5,High,Call,UK
+94,1860,Bug,Resolved,Agent C,2026-03-08,2026-03-08,0,5,Low,Chat,India
+95,1607,Payment Failure,Pending,Agent B,2025-10-31,2025-11-03,3,3,Low,Chat,Canada
+96,1885,Account Locked,Escalated,Agent C,2025-10-18,2025-10-23,5,3,Low,Email,Canada
+97,1109,Login Issue,Pending,Agent C,2025-12-30,2026-01-04,5,3,Medium,Email,US
+98,1487,Slow Performance,Escalated,Agent C,2026-03-17,2026-03-19,2,3,Medium,Chat,US
+99,1527,Payment Failure,Resolved,Agent B,2026-01-09,2026-01-13,4,3,Medium,Email,India
+100,1631,Slow Performance,Escalated,Agent D,2026-01-27,2026-01-29,2,4,Low,Email,UK
+101,1413,Payment Failure,Escalated,Agent C,2026-03-19,2026-03-21,2,3,High,Chat,UK
+102,1699,Bug,Resolved,Agent D,2026-01-04,2026-01-09,5,4,Low,Chat,India
+103,1229,Login Issue,Pending,Agent D,2025-12-16,2025-12-21,5,5,Medium,Call,Canada
+104,1319,Payment Failure,Pending,Agent C,2025-12-27,2025-12-30,3,1,Medium,Email,UK
+105,1909,Bug,Escalated,Agent A,2026-01-03,2026-01-04,1,3,Medium,Call,Canada
+106,1327,Slow Performance,Resolved,Agent D,2026-03-22,2026-03-22,0,5,High,Call,UK
+107,1109,Payment Failure,Escalated,Agent C,2026-01-05,2026-01-07,2,3,High,Chat,India
+108,1434,Account Locked,Escalated,Agent C,2026-03-28,2026-04-01,4,4,Medium,Chat,UK
+109,1640,Slow Performance,Escalated,Agent A,2026-01-22,2026-01-25,3,2,Low,Chat,US
+110,1904,Bug,Escalated,Agent A,2025-11-27,2025-11-29,2,2,Low,Call,India
+111,1012,Login Issue,Escalated,Agent B,2025-11-17,2025-11-20,3,1,Low,Chat,UK
+112,1281,Slow Performance,Pending,Agent A,2026-04-13,2026-04-18,5,1,Low,Email,US
+113,1723,Bug,Resolved,Agent A,2026-02-10,2026-02-14,4,1,Low,Call,Canada
+114,1910,Account Locked,Pending,Agent A,2026-03-18,2026-03-22,4,4,High,Email,US
+115,1141,Slow Performance,Resolved,Agent C,2025-12-22,2025-12-26,4,1,High,Email,US
+116,1936,Bug,Resolved,Agent A,2025-10-30,2025-11-02,3,1,High,Chat,US
+117,1096,Slow Performance,Resolved,Agent B,2025-11-14,2025-11-15,1,2,Low,Chat,UK
+118,1763,Bug,Resolved,Agent A,2026-02-01,2026-02-04,3,2,Low,Call,US
+119,1896,Account Locked,Escalated,Agent D,2026-01-03,2026-01-08,5,5,Medium,Email,India
+120,1306,Login Issue,Pending,Agent D,2025-12-28,2025-12-31,3,5,Medium,Chat,UK
+121,1347,Bug,Escalated,Agent D,2025-11-08,2025-11-12,4,5,Medium,Chat,India
+122,1545,Account Locked,Escalated,Agent D,2026-03-18,2026-03-22,4,3,Medium,Call,US
+123,1464,Login Issue,Resolved,Agent A,2025-10-26,2025-10-31,5,1,Low,Email,US
+124,1474,Login Issue,Escalated,Agent C,2026-03-19,2026-03-20,1,3,Low,Call,US
+125,1251,Slow Performance,Resolved,Agent D,2025-10-16,2025-10-20,4,3,Medium,Email,Canada
+126,1687,Slow Performance,Resolved,Agent D,2025-11-05,2025-11-07,2,1,Low,Email,UK
+127,1505,Bug,Pending,Agent A,2026-01-02,2026-01-03,1,3,High,Call,Canada
+128,1583,Login Issue,Pending,Agent D,2026-04-07,2026-04-11,4,1,Low,Chat,Canada
+129,1057,Bug,Escalated,Agent B,2026-01-11,2026-01-13,2,4,Medium,Call,US
+130,1003,Account Locked,Resolved,Agent C,2025-12-28,2025-12-30,2,1,High,Call,Canada
+131,1955,Payment Failure,Escalated,Agent D,2025-12-29,2026-01-01,3,5,Low,Email,India
+132,1110,Payment Failure,Resolved,Agent A,2025-10-15,2025-10-18,3,3,Low,Email,UK
+133,1177,Account Locked,Pending,Agent C,2026-03-14,2026-03-15,1,1,High,Email,US
+134,1112,Login Issue,Escalated,Agent D,2025-12-11,2025-12-15,4,5,High,Chat,US
+135,1775,Login Issue,Escalated,Agent A,2025-11-20,2025-11-20,0,3,Low,Chat,Canada
+136,1555,Bug,Escalated,Agent A,2025-12-18,2025-12-23,5,4,Medium,Email,UK
+137,1964,Slow Performance,Pending,Agent D,2025-12-09,2025-12-13,4,4,Medium,Call,US
+138,1179,Slow Performance,Resolved,Agent C,2025-11-24,2025-11-25,1,5,High,Chat,Canada
+139,1705,Bug,Pending,Agent A,2025-11-18,2025-11-18,0,3,Low,Email,Canada
+140,1908,Slow Performance,Pending,Agent C,2026-02-26,2026-03-01,3,1,Medium,Chat,UK
+141,1895,Account Locked,Pending,Agent D,2025-12-01,2025-12-04,3,2,High,Email,US
+142,1118,Payment Failure,Pending,Agent A,2026-01-03,2026-01-05,2,4,High,Call,UK
+143,1281,Slow Performance,Pending,Agent B,2025-10-22,2025-10-24,2,5,High,Email,Canada
+144,1382,Payment Failure,Resolved,Agent B,2026-04-10,2026-04-15,5,1,High,Email,India
+145,1224,Account Locked,Escalated,Agent B,2026-02-05,2026-02-10,5,1,High,Call,India
+146,1992,Account Locked,Escalated,Agent B,2026-02-18,2026-02-22,4,2,High,Call,US
+147,1242,Account Locked,Resolved,Agent B,2025-11-01,2025-11-04,3,3,Medium,Chat,UK
+148,1011,Login Issue,Pending,Agent D,2026-03-24,2026-03-25,1,4,Low,Call,Canada
+149,1282,Slow Performance,Escalated,Agent C,2026-01-28,2026-01-30,2,1,Medium,Call,India
+150,1810,Login Issue,Pending,Agent D,2026-01-27,2026-01-29,2,1,Low,Email,India
+151,1431,Bug,Resolved,Agent A,2025-11-24,2025-11-26,2,3,High,Email,US
+152,1604,Login Issue,Pending,Agent C,2026-02-18,2026-02-19,1,1,High,Call,US
+153,1478,Payment Failure,Escalated,Agent A,2026-03-01,2026-03-04,3,5,Medium,Chat,US
+154,1151,Login Issue,Resolved,Agent D,2026-01-26,2026-01-31,5,1,Low,Chat,Canada
+155,1132,Login Issue,Pending,Agent C,2026-04-02,2026-04-05,3,5,High,Call,US
+156,1959,Bug,Resolved,Agent B,2026-01-24,2026-01-29,5,5,Medium,Email,Canada
+157,1746,Account Locked,Escalated,Agent C,2026-01-05,2026-01-05,0,4,High,Chat,Canada
+158,1295,Slow Performance,Resolved,Agent D,2025-11-27,2025-11-28,1,1,Medium,Chat,Canada
+159,1780,Slow Performance,Escalated,Agent D,2025-11-14,2025-11-18,4,5,Medium,Email,US
+160,1938,Login Issue,Resolved,Agent A,2026-02-14,2026-02-14,0,4,Low,Call,India
+161,1833,Payment Failure,Escalated,Agent D,2025-11-04,2025-11-05,1,2,High,Email,Canada
+162,1327,Payment Failure,Escalated,Agent B,2026-02-18,2026-02-23,5,5,Low,Email,India
+163,1055,Bug,Resolved,Agent A,2025-12-13,2025-12-15,2,2,High,Email,India
+164,1962,Payment Failure,Pending,Agent C,2026-03-17,2026-03-22,5,3,Low,Call,India
+165,1570,Account Locked,Resolved,Agent C,2025-12-23,2025-12-23,0,4,High,Email,UK
+166,1717,Account Locked,Pending,Agent C,2026-03-06,2026-03-11,5,5,High,Email,India
+167,1644,Login Issue,Resolved,Agent B,2025-12-03,2025-12-04,1,3,Medium,Chat,UK
+168,1632,Account Locked,Resolved,Agent B,2026-01-22,2026-01-24,2,5,Low,Chat,Canada
+169,1717,Slow Performance,Resolved,Agent C,2026-03-11,2026-03-16,5,1,Low,Email,India
+170,1222,Payment Failure,Resolved,Agent D,2026-01-28,2026-01-29,1,5,High,Email,Canada
+171,1901,Slow Performance,Resolved,Agent B,2025-11-07,2025-11-10,3,1,Medium,Email,Canada
+172,1558,Account Locked,Pending,Agent A,2025-11-15,2025-11-15,0,1,High,Call,India
+173,1100,Slow Performance,Pending,Agent C,2025-12-21,2025-12-26,5,2,Low,Call,US
+174,1319,Login Issue,Pending,Agent C,2026-01-01,2026-01-03,2,4,Low,Call,Canada
+175,1409,Slow Performance,Pending,Agent D,2026-01-07,2026-01-08,1,5,Medium,Chat,Canada
+176,1825,Login Issue,Pending,Agent A,2026-01-14,2026-01-19,5,5,Medium,Chat,India
+177,1213,Login Issue,Resolved,Agent B,2026-03-12,2026-03-14,2,2,Medium,Call,US
+178,1352,Bug,Resolved,Agent C,2025-12-19,2025-12-24,5,3,Low,Call,UK
+179,1623,Slow Performance,Resolved,Agent C,2025-11-28,2025-11-28,0,3,High,Call,US
+180,1301,Bug,Escalated,Agent B,2025-12-22,2025-12-25,3,5,Low,Call,US
+181,1042,Slow Performance,Pending,Agent A,2026-01-29,2026-02-01,3,1,Low,Call,India
+182,1343,Login Issue,Pending,Agent A,2025-12-05,2025-12-08,3,1,High,Email,India
+183,1076,Login Issue,Escalated,Agent B,2026-01-30,2026-02-04,5,4,Low,Email,UK
+184,1488,Account Locked,Pending,Agent B,2026-01-19,2026-01-23,4,5,Low,Chat,India
+185,1241,Payment Failure,Resolved,Agent B,2026-01-28,2026-01-30,2,2,Low,Chat,US
+186,1326,Payment Failure,Pending,Agent C,2025-10-27,2025-11-01,5,5,Low,Call,US
+187,1150,Payment Failure,Resolved,Agent D,2025-11-18,2025-11-23,5,3,Low,Email,UK
+188,1947,Bug,Escalated,Agent B,2026-01-10,2026-01-15,5,5,Low,Call,Canada
+189,1781,Payment Failure,Pending,Agent B,2025-12-13,2025-12-17,4,4,Medium,Chat,US
+190,1467,Payment Failure,Pending,Agent C,2026-01-18,2026-01-22,4,1,High,Chat,Canada
+191,1771,Slow Performance,Escalated,Agent C,2026-01-05,2026-01-07,2,4,Medium,Email,India
+192,1463,Account Locked,Resolved,Agent D,2025-10-31,2025-10-31,0,2,Low,Email,UK
+193,1665,Account Locked,Pending,Agent A,2025-11-12,2025-11-17,5,4,High,Call,India
+194,1208,Payment Failure,Resolved,Agent A,2026-01-07,2026-01-10,3,4,Medium,Chat,US
+195,1534,Account Locked,Escalated,Agent D,2025-10-26,2025-10-28,2,1,High,Chat,India
+196,1329,Payment Failure,Pending,Agent A,2025-11-19,2025-11-22,3,2,Low,Call,US
+197,1630,Bug,Resolved,Agent D,2025-11-09,2025-11-11,2,1,Medium,Email,US
+198,1600,Slow Performance,Escalated,Agent A,2026-04-04,2026-04-08,4,1,Medium,Email,US
+199,1684,Login Issue,Pending,Agent C,2026-02-21,2026-02-25,4,1,High,Email,Canada
+200,1175,Payment Failure,Escalated,Agent B,2025-12-29,2025-12-30,1,2,Medium,Email,India
+201,1747,Login Issue,Pending,Agent D,2026-02-18,2026-02-19,1,2,Medium,Chat,UK
+202,1722,Payment Failure,Escalated,Agent A,2025-11-04,2025-11-04,0,2,Medium,Call,India
+203,1072,Account Locked,Pending,Agent A,2025-12-23,2025-12-24,1,4,High,Email,UK
+204,2000,Bug,Pending,Agent A,2025-12-28,2026-01-02,5,1,Low,Email,Canada
+205,1876,Bug,Resolved,Agent D,2026-03-01,2026-03-01,0,2,Low,Email,India
+206,1629,Slow Performance,Pending,Agent D,2026-04-05,2026-04-05,0,1,High,Email,UK
+207,1998,Login Issue,Pending,Agent D,2026-04-02,2026-04-07,5,3,Medium,Chat,US
+208,1291,Payment Failure,Resolved,Agent C,2026-03-13,2026-03-18,5,5,High,Chat,UK
+209,1759,Slow Performance,Pending,Agent B,2026-01-20,2026-01-25,5,3,Low,Call,US
+210,1799,Payment Failure,Pending,Agent B,2025-12-08,2025-12-09,1,5,Low,Email,UK
+211,1281,Payment Failure,Resolved,Agent D,2026-02-22,2026-02-22,0,4,Medium,Call,UK
+212,1203,Slow Performance,Escalated,Agent C,2025-11-25,2025-11-25,0,3,High,Call,India
+213,1278,Payment Failure,Resolved,Agent C,2025-12-23,2025-12-25,2,1,Low,Email,UK
+214,1170,Payment Failure,Pending,Agent A,2026-02-11,2026-02-14,3,3,Medium,Chat,US
+215,1002,Account Locked,Resolved,Agent B,2026-01-28,2026-02-01,4,4,Low,Call,UK
+216,1145,Payment Failure,Escalated,Agent C,2026-01-12,2026-01-12,0,5,Low,Email,UK
+217,1277,Bug,Escalated,Agent B,2026-04-03,2026-04-03,0,3,Medium,Chat,Canada
+218,1376,Account Locked,Pending,Agent D,2025-11-11,2025-11-16,5,2,Medium,Call,US
+219,1348,Slow Performance,Escalated,Agent A,2026-02-24,2026-02-24,0,3,Low,Chat,UK
+220,1313,Bug,Escalated,Agent C,2026-02-23,2026-02-27,4,3,Medium,Call,UK
+221,1392,Login Issue,Resolved,Agent C,2026-04-06,2026-04-07,1,4,High,Call,Canada
+222,1909,Payment Failure,Resolved,Agent C,2026-03-29,2026-03-31,2,1,Medium,Email,India
+223,1799,Account Locked,Resolved,Agent A,2026-02-25,2026-02-26,1,5,Medium,Chat,Canada
+224,1747,Slow Performance,Pending,Agent A,2025-11-24,2025-11-29,5,1,Low,Email,UK
+225,1808,Payment Failure,Resolved,Agent B,2025-10-24,2025-10-29,5,2,Medium,Call,India
+226,1074,Login Issue,Escalated,Agent B,2025-10-19,2025-10-20,1,2,Medium,Chat,UK
+227,1294,Payment Failure,Pending,Agent B,2026-01-08,2026-01-10,2,5,Medium,Call,Canada
+228,1086,Bug,Resolved,Agent A,2026-03-31,2026-04-01,1,5,Low,Chat,US
+229,1503,Account Locked,Pending,Agent A,2026-01-25,2026-01-29,4,5,Low,Chat,US
+230,1312,Slow Performance,Escalated,Agent A,2026-04-02,2026-04-06,4,3,High,Chat,US
+231,1820,Bug,Pending,Agent C,2026-01-03,2026-01-04,1,5,Low,Call,UK
+232,1587,Account Locked,Escalated,Agent B,2026-02-28,2026-02-28,0,3,High,Email,US
+233,1829,Login Issue,Escalated,Agent A,2026-01-24,2026-01-28,4,1,Low,Call,UK
+234,1229,Bug,Resolved,Agent D,2025-10-20,2025-10-22,2,2,Low,Call,Canada
+235,1680,Login Issue,Pending,Agent D,2026-03-06,2026-03-11,5,2,High,Chat,India
+236,1162,Slow Performance,Escalated,Agent D,2025-11-18,2025-11-22,4,1,Low,Chat,US
+237,1437,Bug,Pending,Agent C,2026-02-26,2026-02-26,0,3,Low,Email,US
+238,1823,Bug,Resolved,Agent A,2025-12-09,2025-12-09,0,3,High,Chat,US
+239,1318,Bug,Resolved,Agent C,2026-01-25,2026-01-28,3,1,Low,Chat,UK
+240,1281,Login Issue,Escalated,Agent D,2025-12-02,2025-12-03,1,5,Low,Chat,Canada
+241,1217,Account Locked,Pending,Agent B,2026-04-05,2026-04-10,5,4,Medium,Call,India
+242,1021,Payment Failure,Escalated,Agent A,2025-10-15,2025-10-19,4,2,High,Email,Canada
+243,1110,Payment Failure,Resolved,Agent D,2025-12-23,2025-12-26,3,2,Medium,Email,Canada
+244,1331,Account Locked,Escalated,Agent B,2025-10-22,2025-10-23,1,4,Medium,Email,UK
+245,1313,Account Locked,Escalated,Agent D,2026-03-31,2026-04-05,5,4,High,Call,US
+246,1872,Login Issue,Escalated,Agent B,2025-12-08,2025-12-11,3,5,High,Chat,US
+247,1089,Slow Performance,Pending,Agent D,2026-02-09,2026-02-10,1,5,Low,Chat,Canada
+248,1074,Account Locked,Pending,Agent A,2026-03-15,2026-03-20,5,3,Low,Email,US
+249,1935,Bug,Resolved,Agent A,2025-11-02,2025-11-04,2,1,High,Call,US
+250,1590,Payment Failure,Pending,Agent A,2026-01-02,2026-01-04,2,4,Low,Email,UK
+251,1553,Bug,Resolved,Agent C,2025-10-24,2025-10-26,2,4,Low,Email,US
+252,1628,Payment Failure,Resolved,Agent D,2025-10-16,2025-10-16,0,2,Medium,Email,India
+253,1579,Bug,Pending,Agent A,2025-11-04,2025-11-04,0,3,Low,Email,Canada
+254,1591,Account Locked,Resolved,Agent A,2026-01-19,2026-01-19,0,5,Medium,Chat,India
+255,1420,Bug,Escalated,Agent C,2026-02-01,2026-02-01,0,5,Low,Call,India
+256,1149,Slow Performance,Pending,Agent C,2026-01-29,2026-02-02,4,5,Medium,Email,India
+257,1914,Account Locked,Escalated,Agent D,2025-10-25,2025-10-27,2,4,Low,Chat,UK
+258,1168,Bug,Escalated,Agent A,2026-03-01,2026-03-02,1,1,Low,Call,UK
+259,1990,Account Locked,Pending,Agent C,2026-01-31,2026-02-04,4,3,Low,Call,UK
+260,1824,Slow Performance,Resolved,Agent C,2025-10-14,2025-10-14,0,1,Medium,Chat,US
+261,1102,Payment Failure,Resolved,Agent A,2025-12-18,2025-12-22,4,1,High,Email,UK
+262,1412,Slow Performance,Pending,Agent B,2026-01-17,2026-01-22,5,5,High,Email,UK
+263,1841,Bug,Resolved,Agent C,2025-10-29,2025-11-03,5,5,Low,Chat,UK
+264,1534,Slow Performance,Escalated,Agent A,2025-12-16,2025-12-21,5,5,Low,Chat,Canada
+265,1550,Bug,Resolved,Agent C,2026-03-08,2026-03-11,3,2,Low,Call,US
+266,1571,Payment Failure,Resolved,Agent C,2025-10-15,2025-10-17,2,3,High,Call,Canada
+267,1614,Account Locked,Resolved,Agent A,2026-02-12,2026-02-12,0,5,Low,Call,India
+268,1360,Payment Failure,Pending,Agent C,2025-11-09,2025-11-11,2,2,High,Email,US
+269,1332,Payment Failure,Resolved,Agent A,2026-03-02,2026-03-02,0,2,High,Chat,India
+270,1444,Account Locked,Escalated,Agent B,2025-12-22,2025-12-23,1,3,Low,Call,US
+271,1119,Account Locked,Escalated,Agent A,2026-02-23,2026-02-23,0,5,High,Email,Canada
+272,1143,Bug,Pending,Agent A,2025-10-28,2025-11-02,5,1,High,Chat,UK
+273,1630,Payment Failure,Escalated,Agent A,2025-11-11,2025-11-11,0,3,Low,Email,US
+274,1878,Login Issue,Resolved,Agent D,2026-03-05,2026-03-06,1,1,Medium,Email,India
+275,1585,Slow Performance,Pending,Agent C,2026-03-20,2026-03-23,3,5,Low,Call,Canada
+276,1221,Account Locked,Resolved,Agent B,2025-11-27,2025-12-01,4,4,Medium,Chat,Canada
+277,1424,Bug,Pending,Agent B,2026-04-08,2026-04-08,0,3,Medium,Call,US
+278,1144,Payment Failure,Resolved,Agent D,2026-02-17,2026-02-17,0,5,Low,Call,India
+279,1267,Login Issue,Escalated,Agent D,2026-02-07,2026-02-08,1,3,High,Call,UK
+280,1562,Slow Performance,Resolved,Agent D,2026-03-31,2026-04-05,5,4,Medium,Chat,India
+281,1568,Slow Performance,Pending,Agent B,2026-02-16,2026-02-19,3,5,High,Email,UK
+282,1621,Payment Failure,Resolved,Agent B,2026-01-29,2026-01-30,1,3,High,Email,UK
+283,1916,Login Issue,Pending,Agent A,2026-01-17,2026-01-20,3,1,Low,Email,Canada
+284,1439,Payment Failure,Escalated,Agent C,2026-04-01,2026-04-03,2,3,High,Email,India
+285,1997,Login Issue,Pending,Agent D,2026-02-03,2026-02-07,4,2,High,Call,India
+286,1049,Bug,Resolved,Agent D,2025-11-12,2025-11-16,4,5,High,Call,US
+287,1748,Bug,Resolved,Agent C,2026-01-25,2026-01-25,0,1,Low,Email,US
+288,1027,Slow Performance,Pending,Agent A,2025-12-28,2025-12-29,1,1,Low,Call,UK
+289,1410,Login Issue,Resolved,Agent C,2025-12-06,2025-12-07,1,1,High,Call,UK
+290,1953,Bug,Pending,Agent D,2025-12-02,2025-12-04,2,5,Medium,Email,US
+291,1285,Bug,Resolved,Agent B,2025-12-25,2025-12-26,1,3,Low,Email,UK
+292,1749,Payment Failure,Escalated,Agent D,2026-02-01,2026-02-04,3,4,Low,Call,UK
+293,1847,Login Issue,Pending,Agent A,2025-12-21,2025-12-22,1,2,Low,Chat,India
+294,1229,Bug,Pending,Agent C,2026-03-11,2026-03-13,2,1,Medium,Chat,UK
+295,1323,Slow Performance,Pending,Agent D,2025-10-18,2025-10-18,0,5,Low,Call,UK
+296,1675,Login Issue,Pending,Agent A,2025-10-17,2025-10-21,4,3,High,Chat,UK
+297,1364,Bug,Pending,Agent A,2025-10-28,2025-10-31,3,1,Low,Call,UK
+298,1069,Login Issue,Pending,Agent A,2025-12-06,2025-12-09,3,1,Medium,Email,US
+299,1578,Bug,Pending,Agent B,2025-12-21,2025-12-21,0,1,Low,Email,Canada
+300,1355,Slow Performance,Resolved,Agent C,2026-01-17,2026-01-18,1,4,Medium,Call,UK
+301,1766,Slow Performance,Escalated,Agent A,2026-03-03,2026-03-05,2,1,High,Email,US
+302,1756,Payment Failure,Pending,Agent A,2026-03-10,2026-03-10,0,5,Low,Call,Canada
+303,1361,Slow Performance,Resolved,Agent B,2025-12-10,2025-12-12,2,5,High,Chat,Canada
+304,1150,Slow Performance,Escalated,Agent C,2025-12-28,2026-01-02,5,2,Medium,Chat,US
+305,1434,Bug,Resolved,Agent C,2025-11-13,2025-11-15,2,1,Medium,Chat,Canada
+306,1630,Bug,Pending,Agent C,2025-12-31,2025-12-31,0,1,High,Call,US
+307,1532,Login Issue,Pending,Agent B,2025-11-01,2025-11-01,0,2,High,Chat,India
+308,1906,Account Locked,Pending,Agent B,2025-12-08,2025-12-11,3,5,Low,Email,US
+309,1072,Login Issue,Pending,Agent C,2025-10-13,2025-10-14,1,2,Medium,Chat,Canada
+310,1075,Login Issue,Escalated,Agent B,2026-02-24,2026-02-25,1,3,Medium,Chat,UK
+311,1742,Bug,Resolved,Agent B,2026-01-11,2026-01-14,3,3,Low,Email,UK
+312,1934,Slow Performance,Resolved,Agent C,2026-02-14,2026-02-18,4,1,Low,Call,Canada
+313,1022,Account Locked,Resolved,Agent B,2026-02-19,2026-02-23,4,4,Low,Email,India
+314,1141,Payment Failure,Resolved,Agent A,2026-01-05,2026-01-07,2,3,Medium,Email,US
+315,1617,Payment Failure,Resolved,Agent C,2025-12-17,2025-12-17,0,3,High,Call,UK
+316,1592,Account Locked,Pending,Agent B,2026-02-18,2026-02-18,0,4,Medium,Email,India
+317,1608,Login Issue,Resolved,Agent B,2026-03-05,2026-03-08,3,1,High,Call,Canada
+318,1199,Account Locked,Escalated,Agent C,2025-11-16,2025-11-16,0,1,Medium,Call,UK
+319,1846,Bug,Resolved,Agent B,2025-11-04,2025-11-05,1,3,Medium,Email,UK
+320,1037,Payment Failure,Pending,Agent B,2025-12-16,2025-12-19,3,3,Low,Call,Canada
+321,1054,Payment Failure,Pending,Agent B,2025-11-22,2025-11-27,5,5,Medium,Call,US
+322,1448,Bug,Escalated,Agent D,2025-12-08,2025-12-08,0,5,Low,Email,UK
+323,1145,Bug,Resolved,Agent B,2026-01-16,2026-01-16,0,5,High,Chat,Canada
+324,1214,Account Locked,Escalated,Agent A,2026-01-29,2026-01-31,2,3,Low,Email,UK
+325,1610,Bug,Resolved,Agent B,2025-12-11,2025-12-11,0,2,Low,Email,UK
+326,1296,Account Locked,Escalated,Agent C,2025-12-30,2025-12-31,1,1,High,Chat,US
+327,1879,Account Locked,Resolved,Agent C,2026-02-27,2026-03-02,3,5,Medium,Email,India
+328,1125,Login Issue,Escalated,Agent B,2026-03-27,2026-03-31,4,1,Low,Email,India
+329,1616,Bug,Escalated,Agent B,2025-11-06,2025-11-10,4,2,Low,Chat,India
+330,1548,Slow Performance,Escalated,Agent A,2025-11-07,2025-11-11,4,3,High,Email,Canada
+331,1416,Payment Failure,Pending,Agent C,2026-04-13,2026-04-16,3,3,Low,Call,India
+332,1422,Payment Failure,Escalated,Agent B,2026-02-14,2026-02-14,0,5,Low,Call,US
+333,1022,Bug,Pending,Agent A,2025-12-23,2025-12-24,1,1,Medium,Email,India
+334,1053,Payment Failure,Resolved,Agent C,2026-03-18,2026-03-19,1,1,Medium,Email,US
+335,1582,Account Locked,Resolved,Agent B,2026-01-27,2026-01-28,1,3,Low,Call,India
+336,1173,Login Issue,Pending,Agent B,2026-02-23,2026-02-26,3,1,High,Call,Canada
+337,1708,Account Locked,Resolved,Agent D,2025-10-27,2025-10-27,0,2,Medium,Email,Canada
+338,1870,Login Issue,Resolved,Agent D,2025-11-20,2025-11-20,0,2,High,Chat,Canada
+339,1214,Payment Failure,Pending,Agent A,2026-01-27,2026-01-30,3,1,High,Call,Canada
+340,1632,Bug,Pending,Agent B,2026-02-01,2026-02-02,1,4,Low,Chat,Canada
+341,1132,Bug,Pending,Agent C,2025-10-16,2025-10-16,0,1,Low,Email,India
+342,1594,Payment Failure,Pending,Agent C,2025-11-26,2025-11-26,0,1,Medium,Call,US
+343,1235,Account Locked,Resolved,Agent B,2026-02-07,2026-02-12,5,4,High,Chat,India
+344,1591,Account Locked,Resolved,Agent A,2026-04-03,2026-04-03,0,2,Medium,Email,UK
+345,1246,Slow Performance,Resolved,Agent D,2026-01-15,2026-01-20,5,4,Medium,Chat,Canada
+346,1055,Login Issue,Pending,Agent A,2026-02-24,2026-02-26,2,3,Low,Email,Canada
+347,1171,Bug,Pending,Agent D,2026-01-11,2026-01-12,1,5,Medium,Call,UK
+348,1233,Account Locked,Escalated,Agent D,2025-11-25,2025-11-29,4,4,Medium,Chat,UK
+349,1187,Slow Performance,Pending,Agent D,2026-04-13,2026-04-13,0,3,High,Call,India
+350,1903,Slow Performance,Escalated,Agent D,2025-11-02,2025-11-07,5,1,Medium,Email,Canada
+351,1630,Login Issue,Resolved,Agent C,2025-11-09,2025-11-13,4,4,Low,Chat,US
+352,1730,Bug,Escalated,Agent D,2025-10-25,2025-10-27,2,5,High,Chat,UK
+353,1146,Login Issue,Resolved,Agent D,2025-12-21,2025-12-25,4,3,Low,Email,Canada
+354,1505,Bug,Escalated,Agent C,2025-12-03,2025-12-08,5,3,Low,Chat,Canada
+355,1711,Slow Performance,Resolved,Agent B,2026-03-13,2026-03-18,5,3,Low,Chat,UK
+356,1439,Slow Performance,Escalated,Agent A,2025-11-30,2025-12-04,4,5,Low,Call,Canada
+357,1177,Payment Failure,Escalated,Agent B,2025-11-04,2025-11-09,5,4,High,Email,India
+358,1526,Bug,Pending,Agent C,2025-11-20,2025-11-21,1,3,Medium,Call,India
+359,1627,Login Issue,Escalated,Agent C,2025-11-27,2025-11-30,3,5,Medium,Chat,India
+360,1069,Bug,Pending,Agent C,2026-04-05,2026-04-06,1,4,High,Chat,India
+361,1965,Slow Performance,Escalated,Agent C,2026-03-25,2026-03-30,5,4,Medium,Chat,UK
+362,1667,Bug,Resolved,Agent C,2025-12-22,2025-12-23,1,5,Low,Chat,UK
+363,1312,Payment Failure,Resolved,Agent B,2026-04-13,2026-04-17,4,1,Low,Call,US
+364,1015,Account Locked,Resolved,Agent A,2025-10-24,2025-10-29,5,3,Medium,Chat,UK
+365,1736,Login Issue,Pending,Agent A,2026-01-01,2026-01-02,1,5,Medium,Call,UK
+366,1616,Account Locked,Resolved,Agent C,2026-01-22,2026-01-26,4,5,Low,Chat,Canada
+367,1655,Payment Failure,Escalated,Agent A,2026-01-05,2026-01-10,5,2,Low,Call,Canada
+368,2000,Bug,Resolved,Agent A,2026-01-20,2026-01-23,3,2,Low,Call,UK
+369,1834,Bug,Resolved,Agent C,2026-03-20,2026-03-23,3,5,High,Call,Canada
+370,1722,Bug,Resolved,Agent B,2026-02-27,2026-03-03,4,2,Medium,Chat,US
+371,1660,Bug,Resolved,Agent D,2026-01-05,2026-01-08,3,2,Medium,Email,UK
+372,1693,Slow Performance,Resolved,Agent D,2026-03-29,2026-03-31,2,4,Medium,Chat,UK
+373,1594,Account Locked,Pending,Agent D,2026-04-12,2026-04-16,4,3,High,Email,UK
+374,1564,Login Issue,Pending,Agent D,2026-03-30,2026-04-02,3,3,High,Chat,US
+375,1696,Slow Performance,Resolved,Agent C,2025-10-19,2025-10-24,5,5,Medium,Chat,US
+376,1759,Slow Performance,Resolved,Agent D,2026-03-01,2026-03-03,2,2,High,Email,US
+377,1641,Login Issue,Pending,Agent D,2025-11-19,2025-11-24,5,1,Medium,Email,UK
+378,1098,Account Locked,Resolved,Agent A,2025-11-11,2025-11-11,0,1,High,Call,UK
+379,1993,Slow Performance,Escalated,Agent A,2025-12-23,2025-12-23,0,5,Medium,Chat,India
+380,1841,Bug,Resolved,Agent D,2026-01-01,2026-01-06,5,2,High,Email,US
+381,1419,Payment Failure,Resolved,Agent C,2025-11-04,2025-11-05,1,5,High,Chat,India
+382,1142,Login Issue,Pending,Agent C,2026-03-09,2026-03-14,5,4,Medium,Chat,Canada
+383,1499,Slow Performance,Resolved,Agent D,2026-03-11,2026-03-13,2,2,Medium,Email,UK
+384,1434,Slow Performance,Escalated,Agent C,2026-03-12,2026-03-13,1,1,High,Chat,US
+385,1003,Bug,Escalated,Agent B,2025-12-13,2025-12-13,0,5,Low,Chat,India
+386,1379,Slow Performance,Resolved,Agent C,2025-12-13,2025-12-15,2,5,Medium,Call,Canada
+387,1999,Bug,Pending,Agent A,2025-10-13,2025-10-17,4,1,Low,Chat,UK
+388,1580,Account Locked,Resolved,Agent B,2025-11-23,2025-11-25,2,3,Low,Email,US
+389,1180,Slow Performance,Resolved,Agent D,2026-03-25,2026-03-27,2,3,Low,Email,US
+390,1349,Slow Performance,Escalated,Agent D,2025-12-20,2025-12-20,0,5,High,Chat,Canada
+391,1828,Login Issue,Escalated,Agent C,2025-12-22,2025-12-24,2,1,Medium,Call,Canada
+392,1385,Slow Performance,Resolved,Agent B,2025-12-01,2025-12-05,4,3,Medium,Call,India
+393,1682,Account Locked,Pending,Agent A,2026-01-03,2026-01-07,4,2,High,Call,India
+394,1237,Payment Failure,Pending,Agent D,2025-10-21,2025-10-24,3,2,Medium,Email,India
+395,1209,Payment Failure,Pending,Agent B,2025-12-11,2025-12-14,3,4,High,Call,US
+396,1174,Account Locked,Pending,Agent B,2025-11-07,2025-11-12,5,3,Low,Email,UK
+397,1773,Account Locked,Pending,Agent A,2026-03-04,2026-03-08,4,2,Low,Call,Canada
+398,1356,Payment Failure,Escalated,Agent A,2026-02-22,2026-02-23,1,1,Medium,Email,India
+399,1892,Login Issue,Resolved,Agent B,2026-02-27,2026-02-27,0,4,Medium,Call,Canada
+400,1451,Payment Failure,Pending,Agent B,2026-02-15,2026-02-19,4,4,High,Call,India
+401,1196,Payment Failure,Escalated,Agent A,2025-10-15,2025-10-16,1,4,High,Email,UK
+402,1276,Account Locked,Escalated,Agent D,2025-12-01,2025-12-04,3,3,Low,Call,India
+403,1831,Login Issue,Resolved,Agent C,2025-11-13,2025-11-14,1,5,Medium,Email,UK
+404,1021,Payment Failure,Pending,Agent D,2026-02-01,2026-02-05,4,1,High,Call,US
+405,1445,Login Issue,Escalated,Agent D,2025-11-02,2025-11-03,1,2,Low,Call,UK
+406,1913,Login Issue,Resolved,Agent B,2026-01-06,2026-01-11,5,4,Medium,Chat,Canada
+407,1315,Account Locked,Pending,Agent A,2026-01-01,2026-01-05,4,1,Medium,Call,US
+408,1069,Account Locked,Escalated,Agent C,2026-01-18,2026-01-23,5,5,Medium,Chat,Canada
+409,1728,Account Locked,Resolved,Agent B,2025-10-25,2025-10-27,2,4,Low,Call,Canada
+410,1948,Bug,Pending,Agent A,2025-12-13,2025-12-17,4,5,Medium,Chat,India
+411,1385,Payment Failure,Pending,Agent A,2025-10-26,2025-10-30,4,1,High,Call,UK
+412,1579,Bug,Pending,Agent A,2025-12-01,2025-12-01,0,1,High,Chat,India
+413,1804,Payment Failure,Pending,Agent A,2025-12-13,2025-12-16,3,4,Medium,Email,US
+414,1877,Account Locked,Pending,Agent B,2025-11-23,2025-11-24,1,1,Low,Chat,India
+415,1851,Payment Failure,Escalated,Agent C,2026-03-18,2026-03-20,2,5,Medium,Call,Canada
+416,1518,Bug,Resolved,Agent B,2026-02-16,2026-02-16,0,3,High,Call,UK
+417,1326,Payment Failure,Pending,Agent B,2026-02-10,2026-02-13,3,4,High,Call,Canada
+418,1877,Payment Failure,Pending,Agent A,2025-12-30,2025-12-31,1,3,Medium,Email,UK
+419,1516,Login Issue,Pending,Agent B,2025-12-20,2025-12-20,0,4,Low,Email,US
+420,1634,Bug,Escalated,Agent B,2026-01-26,2026-01-26,0,5,Medium,Call,UK
+421,1594,Slow Performance,Resolved,Agent A,2025-11-21,2025-11-24,3,2,Low,Chat,US
+422,1211,Slow Performance,Resolved,Agent A,2025-11-27,2025-11-29,2,4,High,Call,Canada
+423,1897,Payment Failure,Escalated,Agent A,2026-03-17,2026-03-19,2,4,High,Email,Canada
+424,1371,Bug,Resolved,Agent C,2025-11-09,2025-11-12,3,5,Low,Email,US
+425,1535,Bug,Resolved,Agent C,2026-01-30,2026-02-02,3,1,High,Chat,US
+426,1926,Account Locked,Resolved,Agent B,2026-02-12,2026-02-17,5,2,Low,Email,UK
+427,1650,Login Issue,Pending,Agent D,2026-02-05,2026-02-07,2,4,High,Email,India
+428,1433,Payment Failure,Resolved,Agent D,2026-03-07,2026-03-12,5,2,Medium,Chat,India
+429,1007,Slow Performance,Pending,Agent A,2026-03-27,2026-03-28,1,2,Medium,Chat,Canada
+430,1024,Login Issue,Escalated,Agent C,2025-10-16,2025-10-16,0,2,Low,Call,Canada
+431,1915,Bug,Pending,Agent A,2026-02-16,2026-02-20,4,4,High,Chat,Canada
+432,1026,Login Issue,Resolved,Agent D,2025-12-30,2026-01-03,4,4,Medium,Call,India
+433,1240,Account Locked,Resolved,Agent C,2025-11-14,2025-11-18,4,2,Low,Chat,US
+434,1821,Bug,Pending,Agent D,2026-02-20,2026-02-23,3,2,Low,Chat,India
+435,1166,Slow Performance,Resolved,Agent B,2026-03-26,2026-03-30,4,5,Medium,Email,UK
+436,1739,Slow Performance,Pending,Agent C,2026-03-22,2026-03-23,1,3,High,Email,UK
+437,1136,Bug,Pending,Agent B,2025-11-19,2025-11-22,3,2,Low,Email,India
+438,1214,Login Issue,Escalated,Agent A,2026-01-22,2026-01-23,1,3,Medium,Chat,Canada
+439,1529,Login Issue,Pending,Agent B,2026-03-18,2026-03-19,1,4,High,Chat,UK
+440,1182,Payment Failure,Pending,Agent A,2026-02-04,2026-02-08,4,4,Low,Chat,US
+441,1886,Bug,Resolved,Agent A,2025-11-29,2025-12-04,5,1,Medium,Call,US
+442,1266,Slow Performance,Pending,Agent C,2026-02-09,2026-02-09,0,4,Low,Call,UK
+443,1714,Slow Performance,Escalated,Agent B,2026-01-16,2026-01-20,4,2,High,Email,US
+444,1015,Account Locked,Resolved,Agent A,2026-02-13,2026-02-18,5,3,Medium,Email,UK
+445,1146,Payment Failure,Resolved,Agent A,2025-10-14,2025-10-17,3,2,Low,Chat,US
+446,1961,Payment Failure,Escalated,Agent C,2025-11-15,2025-11-15,0,1,Medium,Email,Canada
+447,1697,Bug,Resolved,Agent C,2026-03-06,2026-03-06,0,5,Medium,Email,US
+448,1692,Slow Performance,Pending,Agent A,2026-01-25,2026-01-26,1,2,Medium,Email,UK
+449,1172,Slow Performance,Escalated,Agent A,2026-01-18,2026-01-21,3,3,High,Chat,US
+450,1741,Login Issue,Pending,Agent C,2025-12-09,2025-12-11,2,3,Medium,Email,India
+451,1204,Bug,Pending,Agent A,2026-03-03,2026-03-08,5,2,High,Call,India
+452,1020,Payment Failure,Escalated,Agent A,2025-12-14,2025-12-15,1,1,Low,Chat,Canada
+453,1300,Bug,Resolved,Agent B,2026-04-11,2026-04-12,1,2,High,Call,India
+454,1622,Payment Failure,Resolved,Agent A,2026-02-20,2026-02-20,0,5,High,Email,UK
+455,1510,Account Locked,Pending,Agent A,2026-03-08,2026-03-09,1,5,Low,Call,India
+456,1982,Account Locked,Escalated,Agent B,2026-01-19,2026-01-23,4,3,Low,Chat,Canada
+457,1755,Account Locked,Pending,Agent D,2026-01-12,2026-01-15,3,3,Low,Email,Canada
+458,1210,Account Locked,Escalated,Agent D,2026-01-29,2026-01-29,0,1,Low,Email,UK
+459,1448,Slow Performance,Resolved,Agent A,2026-03-16,2026-03-20,4,4,High,Email,Canada
+460,1991,Login Issue,Resolved,Agent C,2025-11-07,2025-11-09,2,2,Medium,Call,UK
+461,1163,Slow Performance,Pending,Agent C,2026-03-05,2026-03-07,2,5,Low,Chat,Canada
+462,1449,Bug,Escalated,Agent A,2025-12-16,2025-12-20,4,5,Low,Chat,India
+463,1356,Payment Failure,Pending,Agent B,2025-11-27,2025-12-01,4,3,High,Email,US
+464,1779,Slow Performance,Resolved,Agent D,2025-12-06,2025-12-10,4,5,High,Call,India
+465,1466,Slow Performance,Pending,Agent B,2026-01-31,2026-02-04,4,3,Medium,Call,India
+466,1450,Payment Failure,Resolved,Agent D,2026-01-30,2026-01-31,1,4,Medium,Email,India
+467,1263,Slow Performance,Escalated,Agent A,2026-02-26,2026-03-02,4,5,Low,Chat,US
+468,1477,Bug,Resolved,Agent A,2025-11-19,2025-11-22,3,1,Low,Call,Canada
+469,1310,Bug,Escalated,Agent B,2026-04-13,2026-04-16,3,3,High,Email,India
+470,1200,Account Locked,Pending,Agent A,2026-03-08,2026-03-10,2,1,High,Email,US
+471,1315,Account Locked,Resolved,Agent C,2026-03-11,2026-03-13,2,1,Low,Chat,UK
+472,1170,Payment Failure,Pending,Agent B,2025-11-22,2025-11-26,4,1,Low,Chat,Canada
+473,1875,Account Locked,Escalated,Agent D,2026-02-23,2026-02-25,2,5,High,Chat,UK
+474,1261,Slow Performance,Escalated,Agent B,2025-12-23,2025-12-25,2,5,High,Call,UK
+475,1604,Bug,Pending,Agent C,2025-10-19,2025-10-23,4,4,High,Chat,Canada
+476,1064,Slow Performance,Escalated,Agent B,2025-10-17,2025-10-22,5,4,High,Chat,Canada
+477,1238,Payment Failure,Pending,Agent B,2026-03-06,2026-03-11,5,3,Low,Call,US
+478,1709,Bug,Escalated,Agent C,2025-12-17,2025-12-18,1,4,Medium,Call,US
+479,1512,Bug,Escalated,Agent C,2026-02-21,2026-02-21,0,1,Low,Email,Canada
+480,1044,Account Locked,Resolved,Agent D,2026-03-27,2026-03-29,2,2,High,Email,US
+481,1054,Payment Failure,Escalated,Agent B,2026-04-13,2026-04-18,5,4,High,Email,India
+482,1279,Payment Failure,Resolved,Agent A,2026-03-31,2026-04-02,2,5,High,Email,Canada
+483,1097,Payment Failure,Resolved,Agent D,2026-02-03,2026-02-07,4,3,High,Email,India
+484,1763,Login Issue,Escalated,Agent D,2026-02-03,2026-02-04,1,4,Low,Chat,India
+485,1047,Login Issue,Escalated,Agent A,2025-10-31,2025-11-01,1,2,High,Call,India
+486,1973,Payment Failure,Escalated,Agent A,2025-10-24,2025-10-25,1,4,Medium,Email,US
+487,1320,Bug,Pending,Agent A,2026-04-09,2026-04-10,1,4,Medium,Chat,Canada
+488,1662,Account Locked,Pending,Agent B,2025-12-03,2025-12-04,1,4,Low,Chat,India
+489,1041,Slow Performance,Escalated,Agent D,2025-11-13,2025-11-14,1,5,Low,Call,India
+490,1949,Login Issue,Pending,Agent A,2026-04-04,2026-04-05,1,4,Low,Call,India
+491,1200,Bug,Resolved,Agent A,2025-10-21,2025-10-22,1,1,Medium,Call,Canada
+492,1581,Account Locked,Pending,Agent C,2026-03-16,2026-03-19,3,3,Medium,Call,US
+493,1282,Login Issue,Escalated,Agent B,2026-01-20,2026-01-23,3,3,Medium,Chat,UK
+494,1263,Payment Failure,Pending,Agent B,2025-12-05,2025-12-10,5,1,Medium,Email,US
+495,1025,Slow Performance,Resolved,Agent B,2025-12-18,2025-12-21,3,4,Medium,Call,UK
+496,1169,Slow Performance,Escalated,Agent D,2025-10-25,2025-10-27,2,5,Low,Chat,India
+497,1975,Slow Performance,Escalated,Agent A,2025-12-02,2025-12-07,5,5,Low,Call,India
+498,1486,Account Locked,Pending,Agent A,2026-03-12,2026-03-16,4,2,Low,Call,India
+499,1835,Slow Performance,Escalated,Agent C,2026-01-14,2026-01-15,1,1,Low,Chat,US
+500,1106,Payment Failure,Resolved,Agent C,2026-01-27,2026-01-28,1,3,High,Call,India
+501,1205,Slow Performance,Pending,Agent B,2025-11-02,2025-11-07,5,3,Low,Email,US
+502,1794,Login Issue,Resolved,Agent C,2025-10-31,2025-11-02,2,3,High,Email,India
+503,1695,Payment Failure,Pending,Agent C,2026-02-18,2026-02-23,5,3,Medium,Chat,India
+504,1133,Bug,Resolved,Agent A,2025-10-30,2025-11-01,2,3,Low,Email,US
+505,1738,Slow Performance,Escalated,Agent C,2025-12-16,2025-12-19,3,3,High,Email,Canada
+506,1977,Account Locked,Escalated,Agent C,2025-11-17,2025-11-20,3,2,High,Email,UK
+507,1445,Bug,Pending,Agent A,2025-10-20,2025-10-22,2,5,Medium,Email,UK
+508,1163,Login Issue,Escalated,Agent B,2026-01-30,2026-02-02,3,2,High,Chat,Canada
+509,1162,Bug,Resolved,Agent D,2026-04-11,2026-04-13,2,1,Medium,Chat,Canada
+510,1621,Account Locked,Resolved,Agent D,2025-11-02,2025-11-03,1,5,Medium,Call,India
+511,1381,Login Issue,Escalated,Agent C,2025-12-17,2025-12-22,5,2,High,Call,Canada
+512,1689,Login Issue,Pending,Agent A,2025-12-10,2025-12-13,3,2,Medium,Call,Canada
+513,1307,Login Issue,Escalated,Agent D,2026-03-05,2026-03-08,3,5,Medium,Call,US
+514,1796,Slow Performance,Resolved,Agent D,2026-03-06,2026-03-07,1,4,High,Email,UK
+515,1778,Login Issue,Resolved,Agent B,2025-12-31,2026-01-03,3,3,Medium,Chat,UK
+516,1380,Bug,Resolved,Agent D,2025-12-14,2025-12-19,5,5,Medium,Chat,US
+517,1374,Bug,Resolved,Agent C,2026-03-21,2026-03-21,0,5,Medium,Email,India
+518,1592,Login Issue,Resolved,Agent B,2026-02-02,2026-02-07,5,5,Medium,Call,UK
+519,1954,Bug,Escalated,Agent D,2025-11-28,2025-12-01,3,4,Low,Call,US
+520,1981,Slow Performance,Resolved,Agent D,2025-12-03,2025-12-03,0,4,High,Chat,US
+521,1421,Login Issue,Resolved,Agent D,2025-11-13,2025-11-18,5,2,High,Call,India
+522,1768,Bug,Escalated,Agent C,2025-12-16,2025-12-18,2,3,Low,Chat,US
+523,1068,Payment Failure,Pending,Agent D,2026-01-27,2026-01-27,0,2,Low,Chat,Canada
+524,1198,Account Locked,Resolved,Agent C,2026-04-06,2026-04-11,5,5,Low,Call,India
+525,1411,Login Issue,Escalated,Agent A,2025-12-14,2025-12-15,1,3,Low,Call,US
+526,1895,Account Locked,Escalated,Agent D,2026-02-07,2026-02-09,2,1,High,Chat,UK
+527,1737,Bug,Resolved,Agent A,2025-11-08,2025-11-09,1,4,High,Call,UK
+528,1377,Slow Performance,Pending,Agent A,2026-02-16,2026-02-18,2,1,High,Chat,UK
+529,1712,Payment Failure,Escalated,Agent B,2025-10-22,2025-10-23,1,2,High,Chat,India
+530,1729,Slow Performance,Pending,Agent B,2026-02-06,2026-02-08,2,3,High,Email,India
+531,1373,Slow Performance,Escalated,Agent C,2025-12-27,2025-12-28,1,1,Low,Call,US
+532,1785,Bug,Pending,Agent A,2026-01-06,2026-01-06,0,5,Low,Email,UK
+533,1792,Bug,Pending,Agent A,2026-02-06,2026-02-09,3,2,High,Call,UK
+534,1241,Bug,Resolved,Agent A,2026-02-18,2026-02-21,3,5,Low,Email,UK
+535,1646,Payment Failure,Pending,Agent A,2026-03-12,2026-03-14,2,3,Low,Call,Canada
+536,1161,Slow Performance,Escalated,Agent D,2026-01-15,2026-01-16,1,3,Medium,Chat,US
+537,1204,Payment Failure,Escalated,Agent B,2026-01-31,2026-02-05,5,1,High,Email,US
+538,1666,Account Locked,Escalated,Agent C,2026-01-02,2026-01-07,5,1,Low,Chat,US
+539,1818,Slow Performance,Escalated,Agent B,2026-02-05,2026-02-10,5,1,Low,Chat,India
+540,1981,Payment Failure,Resolved,Agent A,2026-03-04,2026-03-09,5,5,Low,Chat,UK
+541,1684,Payment Failure,Pending,Agent A,2025-11-24,2025-11-28,4,2,Medium,Chat,Canada
+542,1780,Slow Performance,Resolved,Agent A,2026-04-04,2026-04-04,0,1,High,Call,UK
+543,1822,Account Locked,Resolved,Agent B,2025-12-15,2025-12-18,3,4,Low,Chat,India
+544,1720,Account Locked,Pending,Agent B,2026-03-23,2026-03-24,1,4,Medium,Chat,US
+545,1488,Account Locked,Pending,Agent D,2026-02-15,2026-02-20,5,5,High,Call,Canada
+546,1160,Slow Performance,Escalated,Agent A,2026-01-04,2026-01-04,0,5,Low,Email,US
+547,1813,Login Issue,Resolved,Agent B,2026-03-22,2026-03-26,4,1,High,Call,Canada
+548,1100,Payment Failure,Pending,Agent C,2025-10-14,2025-10-14,0,5,Low,Call,UK
+549,1165,Payment Failure,Escalated,Agent B,2025-10-29,2025-11-02,4,2,High,Call,Canada
+550,1264,Login Issue,Resolved,Agent A,2026-03-29,2026-04-03,5,4,High,Call,India
+551,1898,Account Locked,Escalated,Agent A,2025-12-01,2025-12-04,3,3,High,Email,US
+552,1039,Login Issue,Escalated,Agent B,2025-11-28,2025-12-02,4,1,Low,Email,India
+553,1533,Bug,Resolved,Agent C,2025-11-17,2025-11-19,2,5,Medium,Chat,India
+554,1428,Slow Performance,Resolved,Agent C,2026-01-19,2026-01-21,2,1,Medium,Chat,India
+555,1115,Slow Performance,Pending,Agent C,2025-10-25,2025-10-26,1,1,Medium,Chat,US
+556,1307,Account Locked,Pending,Agent B,2025-11-07,2025-11-09,2,1,Medium,Email,UK
+557,1008,Login Issue,Pending,Agent C,2026-03-08,2026-03-12,4,1,Low,Call,UK
+558,1415,Bug,Resolved,Agent D,2025-11-04,2025-11-08,4,1,Medium,Chat,India
+559,1173,Payment Failure,Pending,Agent B,2026-02-28,2026-03-05,5,2,Medium,Chat,Canada
+560,1899,Bug,Escalated,Agent C,2026-02-28,2026-03-03,3,4,Low,Email,UK
+561,1578,Bug,Escalated,Agent B,2025-10-14,2025-10-14,0,3,High,Chat,UK
+562,1061,Payment Failure,Escalated,Agent D,2025-11-24,2025-11-25,1,2,Low,Chat,Canada
+563,1978,Bug,Escalated,Agent A,2025-12-17,2025-12-20,3,5,Medium,Call,UK
+564,1461,Account Locked,Pending,Agent A,2026-02-18,2026-02-21,3,4,Low,Chat,UK
+565,1811,Account Locked,Pending,Agent C,2026-01-14,2026-01-15,1,1,High,Email,UK
+566,1228,Login Issue,Resolved,Agent B,2026-01-16,2026-01-21,5,5,Medium,Email,US
+567,1153,Login Issue,Resolved,Agent B,2025-10-15,2025-10-16,1,5,Low,Email,Canada
+568,1793,Bug,Pending,Agent B,2025-11-03,2025-11-03,0,1,High,Chat,UK
+569,1023,Bug,Escalated,Agent D,2025-11-23,2025-11-23,0,3,Medium,Email,Canada
+570,1391,Bug,Pending,Agent A,2026-01-08,2026-01-13,5,4,High,Call,India
+571,1709,Slow Performance,Pending,Agent D,2026-02-02,2026-02-04,2,1,High,Email,US
+572,1281,Payment Failure,Pending,Agent D,2026-01-04,2026-01-05,1,3,Low,Email,Canada
+573,1840,Payment Failure,Pending,Agent B,2026-02-20,2026-02-25,5,5,Low,Email,UK
+574,1670,Login Issue,Pending,Agent C,2026-02-09,2026-02-13,4,5,Medium,Email,UK
+575,1981,Payment Failure,Resolved,Agent B,2025-11-25,2025-11-26,1,5,High,Chat,Canada
+576,1922,Payment Failure,Escalated,Agent C,2025-12-02,2025-12-06,4,2,Low,Call,UK
+577,1379,Bug,Resolved,Agent D,2026-03-12,2026-03-15,3,1,Low,Email,US
+578,1712,Payment Failure,Resolved,Agent B,2026-01-17,2026-01-18,1,3,Low,Chat,US
+579,1207,Account Locked,Pending,Agent A,2025-11-21,2025-11-22,1,3,Medium,Call,Canada
+580,1330,Account Locked,Resolved,Agent C,2025-11-04,2025-11-09,5,5,Medium,Email,Canada
+581,1652,Payment Failure,Escalated,Agent C,2026-03-18,2026-03-22,4,5,Low,Chat,Canada
+582,1975,Payment Failure,Escalated,Agent A,2025-12-28,2025-12-31,3,1,Medium,Email,India
+583,1581,Bug,Resolved,Agent D,2026-04-05,2026-04-06,1,1,Low,Chat,UK
+584,1737,Account Locked,Escalated,Agent D,2026-03-23,2026-03-24,1,3,Medium,Email,US
+585,1064,Account Locked,Resolved,Agent C,2025-10-25,2025-10-26,1,1,Medium,Email,UK
+586,1654,Slow Performance,Resolved,Agent D,2026-04-09,2026-04-13,4,1,Medium,Email,UK
+587,1927,Bug,Escalated,Agent A,2026-01-22,2026-01-24,2,4,Medium,Call,India
+588,1142,Login Issue,Resolved,Agent D,2026-03-01,2026-03-01,0,3,High,Call,UK
+589,1545,Bug,Pending,Agent D,2025-11-25,2025-11-26,1,4,Medium,Call,India
+590,1843,Account Locked,Escalated,Agent A,2026-02-15,2026-02-18,3,2,Low,Chat,Canada
+591,1714,Slow Performance,Escalated,Agent C,2025-12-20,2025-12-21,1,1,Medium,Call,Canada
+592,1311,Payment Failure,Escalated,Agent D,2025-11-29,2025-12-03,4,5,High,Email,India
+593,1017,Account Locked,Pending,Agent A,2025-11-30,2025-12-04,4,1,High,Call,Canada
+594,1875,Bug,Resolved,Agent D,2026-02-26,2026-03-02,4,1,Medium,Email,India
+595,1163,Slow Performance,Pending,Agent D,2025-12-25,2025-12-25,0,5,Medium,Call,India
+596,1946,Slow Performance,Resolved,Agent D,2026-01-23,2026-01-24,1,5,Medium,Email,US
+597,1737,Account Locked,Escalated,Agent D,2026-02-07,2026-02-12,5,4,Low,Chat,India
+598,1715,Account Locked,Escalated,Agent B,2026-03-11,2026-03-11,0,5,Low,Call,India
+599,1821,Account Locked,Pending,Agent D,2026-04-06,2026-04-06,0,1,Medium,Email,Canada
+600,1686,Slow Performance,Resolved,Agent A,2026-02-04,2026-02-04,0,5,Medium,Email,India
+601,1035,Slow Performance,Escalated,Agent C,2026-01-31,2026-02-01,1,4,High,Call,India
+602,1364,Slow Performance,Resolved,Agent B,2026-02-07,2026-02-12,5,4,High,Call,Canada
+603,1962,Payment Failure,Resolved,Agent A,2025-10-19,2025-10-23,4,5,Medium,Chat,Canada
+604,1508,Payment Failure,Resolved,Agent A,2025-10-20,2025-10-23,3,3,High,Email,India
+605,1056,Account Locked,Escalated,Agent C,2025-11-16,2025-11-19,3,4,Low,Chat,Canada
+606,1190,Bug,Pending,Agent A,2025-11-16,2025-11-16,0,2,High,Chat,India
+607,1989,Slow Performance,Pending,Agent B,2025-12-29,2026-01-01,3,4,Medium,Chat,Canada
+608,1609,Login Issue,Pending,Agent B,2025-12-18,2025-12-20,2,3,Low,Email,UK
+609,1603,Account Locked,Resolved,Agent D,2026-03-02,2026-03-03,1,2,Low,Call,Canada
+610,1779,Login Issue,Resolved,Agent D,2025-10-17,2025-10-18,1,4,High,Chat,US
+611,1321,Account Locked,Pending,Agent D,2025-11-17,2025-11-22,5,2,Medium,Call,India
+612,1926,Login Issue,Escalated,Agent C,2026-01-03,2026-01-03,0,5,Medium,Email,UK
+613,1524,Bug,Escalated,Agent B,2026-02-16,2026-02-17,1,3,Low,Chat,US
+614,1587,Slow Performance,Pending,Agent C,2025-11-20,2025-11-22,2,2,Low,Call,India
+615,1605,Account Locked,Escalated,Agent C,2026-03-01,2026-03-05,4,2,Medium,Call,US
+616,1341,Payment Failure,Escalated,Agent B,2026-02-13,2026-02-16,3,5,Medium,Chat,UK
+617,1276,Payment Failure,Escalated,Agent D,2026-03-31,2026-04-04,4,5,High,Call,India
+618,1041,Account Locked,Escalated,Agent D,2025-11-15,2025-11-18,3,5,Medium,Email,UK
+619,1544,Bug,Pending,Agent B,2025-10-13,2025-10-13,0,3,Low,Email,India
+620,1949,Slow Performance,Escalated,Agent B,2025-11-09,2025-11-09,0,3,High,Call,Canada
+621,1520,Account Locked,Escalated,Agent C,2025-12-30,2026-01-02,3,3,Low,Email,UK
+622,1284,Payment Failure,Pending,Agent C,2026-02-08,2026-02-10,2,4,Medium,Call,Canada
+623,1961,Slow Performance,Resolved,Agent D,2025-12-14,2025-12-15,1,2,Low,Email,US
+624,1939,Slow Performance,Pending,Agent B,2026-01-24,2026-01-27,3,4,High,Call,India
+625,1791,Bug,Pending,Agent C,2026-02-12,2026-02-17,5,5,Medium,Email,India
+626,1440,Account Locked,Resolved,Agent C,2025-10-24,2025-10-25,1,5,Low,Email,India
+627,1796,Login Issue,Pending,Agent C,2026-04-10,2026-04-12,2,5,Medium,Email,UK
+628,1917,Payment Failure,Resolved,Agent C,2026-01-03,2026-01-04,1,1,High,Call,India
+629,1753,Account Locked,Escalated,Agent A,2026-03-02,2026-03-02,0,1,Low,Call,India
+630,1886,Account Locked,Escalated,Agent B,2025-12-08,2025-12-09,1,3,Low,Email,India
+631,1231,Payment Failure,Resolved,Agent C,2026-03-07,2026-03-07,0,5,Medium,Chat,India
+632,1083,Account Locked,Resolved,Agent C,2025-12-28,2025-12-30,2,3,Low,Call,India
+633,1018,Slow Performance,Escalated,Agent D,2025-10-15,2025-10-18,3,1,Low,Chat,Canada
+634,1164,Account Locked,Resolved,Agent C,2025-12-07,2025-12-10,3,2,Low,Chat,India
+635,1971,Account Locked,Resolved,Agent D,2025-11-23,2025-11-24,1,4,Low,Email,Canada
+636,1148,Payment Failure,Pending,Agent B,2026-01-07,2026-01-09,2,2,Low,Email,Canada
+637,1620,Payment Failure,Resolved,Agent C,2025-12-13,2025-12-15,2,4,Medium,Email,US
+638,1051,Account Locked,Resolved,Agent C,2025-12-11,2025-12-14,3,4,Medium,Email,US
+639,1469,Account Locked,Resolved,Agent A,2026-03-18,2026-03-20,2,5,Low,Email,India
+640,1953,Login Issue,Resolved,Agent D,2026-02-08,2026-02-10,2,2,Medium,Email,India
+641,1781,Account Locked,Escalated,Agent C,2026-02-01,2026-02-03,2,2,Low,Email,India
+642,1875,Login Issue,Pending,Agent B,2026-01-04,2026-01-09,5,2,High,Email,Canada
+643,1995,Account Locked,Resolved,Agent B,2026-01-22,2026-01-27,5,5,Low,Call,India
+644,1233,Slow Performance,Resolved,Agent B,2026-02-02,2026-02-06,4,2,Low,Email,Canada
+645,1585,Login Issue,Pending,Agent D,2026-03-26,2026-03-29,3,4,Low,Call,India
+646,1518,Payment Failure,Pending,Agent B,2026-02-02,2026-02-04,2,1,Low,Email,UK
+647,1395,Slow Performance,Resolved,Agent C,2025-11-25,2025-11-28,3,4,Medium,Email,US
+648,1498,Account Locked,Pending,Agent C,2025-10-18,2025-10-23,5,3,Low,Chat,UK
+649,1785,Bug,Pending,Agent B,2025-12-19,2025-12-20,1,4,High,Chat,US
+650,1800,Slow Performance,Pending,Agent A,2025-11-10,2025-11-15,5,2,Medium,Email,UK
+651,1554,Bug,Escalated,Agent C,2025-10-21,2025-10-24,3,2,Medium,Email,UK
+652,1757,Account Locked,Escalated,Agent D,2026-02-13,2026-02-18,5,4,Low,Call,US
+653,1138,Login Issue,Pending,Agent C,2025-10-18,2025-10-18,0,3,Medium,Call,Canada
+654,1262,Account Locked,Pending,Agent B,2026-04-02,2026-04-03,1,1,Medium,Call,UK
+655,1485,Bug,Pending,Agent B,2026-03-18,2026-03-22,4,4,Medium,Chat,US
+656,1796,Login Issue,Pending,Agent B,2025-10-19,2025-10-19,0,4,High,Email,US
+657,1166,Login Issue,Escalated,Agent A,2026-02-22,2026-02-27,5,1,Medium,Call,Canada
+658,1504,Account Locked,Pending,Agent B,2026-01-25,2026-01-30,5,2,High,Chat,India
+659,1951,Slow Performance,Pending,Agent B,2026-03-18,2026-03-21,3,3,High,Chat,Canada
+660,1727,Bug,Escalated,Agent C,2026-02-01,2026-02-05,4,2,Low,Chat,US
+661,1272,Login Issue,Pending,Agent D,2026-03-31,2026-04-03,3,5,High,Chat,India
+662,1895,Bug,Escalated,Agent B,2026-02-15,2026-02-20,5,2,High,Chat,US
+663,1197,Account Locked,Pending,Agent B,2026-01-30,2026-01-30,0,2,High,Call,India
+664,1156,Login Issue,Escalated,Agent D,2026-03-03,2026-03-06,3,2,Low,Email,UK
+665,1768,Login Issue,Resolved,Agent A,2026-04-06,2026-04-08,2,2,High,Chat,Canada
+666,1231,Slow Performance,Pending,Agent B,2026-02-20,2026-02-23,3,2,Medium,Email,Canada
+667,1356,Payment Failure,Resolved,Agent D,2026-02-10,2026-02-15,5,2,Low,Email,UK
+668,1137,Slow Performance,Pending,Agent A,2025-10-15,2025-10-15,0,3,Low,Chat,India
+669,1420,Payment Failure,Pending,Agent A,2026-01-31,2026-02-01,1,2,Medium,Call,US
+670,1142,Account Locked,Escalated,Agent B,2026-03-15,2026-03-18,3,3,High,Email,UK
+671,1889,Slow Performance,Escalated,Agent C,2026-02-01,2026-02-05,4,4,Low,Email,UK
+672,1617,Slow Performance,Pending,Agent D,2026-02-20,2026-02-22,2,5,Low,Call,Canada
+673,1119,Payment Failure,Pending,Agent D,2025-11-24,2025-11-26,2,1,Low,Call,UK
+674,1511,Account Locked,Resolved,Agent A,2026-02-12,2026-02-14,2,4,Low,Call,Canada
+675,1591,Payment Failure,Escalated,Agent A,2025-10-25,2025-10-29,4,2,High,Chat,UK
+676,1102,Payment Failure,Resolved,Agent B,2025-11-25,2025-11-25,0,1,Low,Chat,US
+677,1515,Payment Failure,Resolved,Agent D,2025-11-09,2025-11-09,0,3,High,Call,US
+678,1930,Account Locked,Pending,Agent D,2025-12-09,2025-12-14,5,1,High,Call,UK
+679,1571,Bug,Escalated,Agent B,2025-10-17,2025-10-17,0,2,Medium,Email,UK
+680,1496,Login Issue,Resolved,Agent D,2026-01-27,2026-01-31,4,1,Medium,Call,UK
+681,1221,Login Issue,Escalated,Agent A,2026-03-27,2026-03-27,0,5,High,Chat,US
+682,1198,Account Locked,Escalated,Agent A,2026-03-24,2026-03-27,3,2,Medium,Email,Canada
+683,1844,Slow Performance,Resolved,Agent C,2025-12-17,2025-12-19,2,1,Medium,Call,India
+684,1684,Bug,Pending,Agent A,2026-03-24,2026-03-27,3,1,High,Call,India
+685,1910,Slow Performance,Escalated,Agent B,2025-10-17,2025-10-17,0,1,High,Chat,Canada
+686,1106,Account Locked,Pending,Agent A,2026-02-09,2026-02-14,5,5,High,Email,UK
+687,1318,Slow Performance,Pending,Agent C,2025-12-31,2026-01-04,4,3,Low,Email,India
+688,1001,Login Issue,Escalated,Agent B,2026-01-10,2026-01-13,3,5,Medium,Email,US
+689,1389,Slow Performance,Pending,Agent A,2026-03-31,2026-04-01,1,3,High,Call,Canada
+690,1338,Slow Performance,Escalated,Agent D,2026-04-05,2026-04-10,5,4,Medium,Chat,UK
+691,1651,Login Issue,Escalated,Agent B,2026-04-08,2026-04-08,0,5,Medium,Email,US
+692,1032,Account Locked,Resolved,Agent B,2026-03-28,2026-03-28,0,4,Low,Email,India
+693,1139,Slow Performance,Escalated,Agent D,2026-03-19,2026-03-19,0,3,Medium,Chat,India
+694,1893,Slow Performance,Escalated,Agent D,2025-10-28,2025-10-30,2,3,Low,Call,India
+695,1575,Login Issue,Resolved,Agent C,2025-11-30,2025-12-01,1,4,Medium,Chat,US
+696,1837,Account Locked,Resolved,Agent B,2025-10-23,2025-10-28,5,4,Low,Email,Canada
+697,1987,Login Issue,Resolved,Agent B,2026-03-20,2026-03-24,4,3,High,Email,UK
+698,1055,Slow Performance,Resolved,Agent D,2026-01-14,2026-01-15,1,1,Low,Email,UK
+699,1153,Login Issue,Resolved,Agent D,2026-03-20,2026-03-24,4,3,High,Email,UK
+700,1269,Payment Failure,Resolved,Agent C,2026-03-21,2026-03-21,0,2,High,Email,US
+701,1817,Slow Performance,Resolved,Agent C,2025-10-25,2025-10-30,5,5,Low,Email,US
+702,1441,Payment Failure,Resolved,Agent B,2025-10-27,2025-10-27,0,4,High,Call,UK
+703,1691,Slow Performance,Pending,Agent A,2026-01-11,2026-01-11,0,3,High,Call,UK
+704,1735,Login Issue,Pending,Agent B,2026-04-02,2026-04-06,4,1,High,Call,India
+705,1011,Slow Performance,Pending,Agent B,2025-11-18,2025-11-20,2,5,Low,Chat,Canada
+706,1453,Bug,Escalated,Agent A,2026-02-16,2026-02-19,3,3,Low,Email,UK
+707,1345,Slow Performance,Pending,Agent B,2026-04-03,2026-04-08,5,3,High,Email,US
+708,1800,Payment Failure,Escalated,Agent D,2025-11-14,2025-11-19,5,4,Medium,Email,India
+709,1558,Slow Performance,Escalated,Agent B,2026-03-29,2026-03-31,2,3,High,Email,India
+710,1375,Login Issue,Pending,Agent B,2026-01-19,2026-01-24,5,2,Medium,Call,India
+711,1588,Bug,Pending,Agent A,2026-02-13,2026-02-13,0,4,High,Chat,UK
+712,1961,Bug,Pending,Agent D,2026-02-19,2026-02-20,1,3,High,Email,India
+713,1264,Slow Performance,Resolved,Agent D,2026-02-12,2026-02-14,2,2,Medium,Call,India
+714,1869,Slow Performance,Pending,Agent C,2025-11-16,2025-11-20,4,1,Medium,Call,Canada
+715,1954,Login Issue,Escalated,Agent C,2025-11-15,2025-11-17,2,5,Medium,Email,India
+716,1957,Slow Performance,Pending,Agent B,2026-04-07,2026-04-09,2,3,High,Email,US
+717,1618,Account Locked,Resolved,Agent C,2025-10-28,2025-10-30,2,3,Low,Call,India
+718,1120,Login Issue,Escalated,Agent D,2025-12-25,2025-12-30,5,5,Medium,Email,UK
+719,1068,Slow Performance,Escalated,Agent C,2026-03-27,2026-03-30,3,2,High,Chat,UK
+720,1599,Slow Performance,Pending,Agent A,2026-03-08,2026-03-12,4,3,Low,Call,Canada
+721,1041,Login Issue,Escalated,Agent A,2026-01-01,2026-01-01,0,2,High,Email,India
+722,1928,Account Locked,Escalated,Agent A,2026-02-27,2026-03-04,5,2,High,Chat,Canada
+723,1549,Slow Performance,Escalated,Agent B,2026-02-12,2026-02-14,2,5,Low,Email,India
+724,1935,Account Locked,Escalated,Agent D,2026-03-13,2026-03-18,5,4,Low,Call,US
+725,1099,Bug,Pending,Agent B,2026-03-31,2026-04-04,4,2,High,Email,India
+726,1788,Payment Failure,Pending,Agent C,2025-11-12,2025-11-15,3,2,Medium,Email,US
+727,1894,Payment Failure,Pending,Agent A,2026-01-18,2026-01-23,5,5,Low,Email,UK
+728,1445,Slow Performance,Escalated,Agent A,2026-02-21,2026-02-25,4,1,Medium,Chat,India
+729,1942,Payment Failure,Escalated,Agent C,2026-01-17,2026-01-19,2,3,Medium,Call,Canada
+730,1040,Payment Failure,Pending,Agent D,2026-02-27,2026-03-02,3,5,High,Email,India
+731,1200,Account Locked,Escalated,Agent D,2025-12-16,2025-12-21,5,3,High,Call,India
+732,1548,Slow Performance,Resolved,Agent C,2026-02-18,2026-02-18,0,2,High,Email,Canada
+733,1252,Bug,Escalated,Agent D,2025-11-17,2025-11-18,1,1,Medium,Chat,Canada
+734,1732,Account Locked,Resolved,Agent A,2025-11-24,2025-11-25,1,5,High,Email,UK
+735,1507,Login Issue,Escalated,Agent C,2025-10-18,2025-10-23,5,1,High,Email,UK
+736,1895,Slow Performance,Resolved,Agent C,2026-03-01,2026-03-05,4,4,High,Chat,US
+737,1791,Bug,Escalated,Agent A,2026-01-05,2026-01-09,4,3,High,Email,UK
+738,1968,Account Locked,Resolved,Agent B,2025-11-15,2025-11-20,5,4,High,Call,UK
+739,1993,Slow Performance,Pending,Agent C,2025-11-06,2025-11-10,4,4,Medium,Email,UK
+740,1289,Bug,Escalated,Agent A,2026-02-04,2026-02-06,2,3,Low,Email,UK
+741,1556,Bug,Resolved,Agent A,2026-02-23,2026-02-27,4,3,Low,Chat,UK
+742,1494,Bug,Resolved,Agent C,2026-01-02,2026-01-05,3,5,High,Call,India
+743,1312,Login Issue,Pending,Agent D,2026-01-17,2026-01-19,2,2,High,Email,UK
+744,1490,Account Locked,Pending,Agent A,2026-02-22,2026-02-27,5,3,High,Email,US
+745,1204,Account Locked,Resolved,Agent B,2026-02-14,2026-02-17,3,2,Medium,Email,UK
+746,1573,Payment Failure,Escalated,Agent A,2026-01-23,2026-01-26,3,2,High,Email,India
+747,1527,Slow Performance,Resolved,Agent D,2026-03-13,2026-03-14,1,2,Medium,Chat,Canada
+748,1591,Bug,Escalated,Agent D,2026-03-03,2026-03-06,3,3,Low,Chat,India
+749,1630,Login Issue,Resolved,Agent C,2025-12-29,2025-12-31,2,3,Medium,Chat,Canada
+750,1990,Slow Performance,Escalated,Agent D,2025-12-13,2025-12-14,1,2,Low,Call,India
+751,1848,Payment Failure,Escalated,Agent A,2026-02-19,2026-02-22,3,4,High,Chat,Canada
+752,1191,Account Locked,Pending,Agent B,2026-01-18,2026-01-22,4,1,Medium,Call,India
+753,1257,Payment Failure,Pending,Agent C,2026-03-07,2026-03-12,5,5,Medium,Email,India
+754,1288,Bug,Resolved,Agent B,2026-03-24,2026-03-25,1,2,Low,Call,Canada
+755,1890,Account Locked,Resolved,Agent A,2025-10-16,2025-10-17,1,3,High,Call,UK
+756,1076,Account Locked,Pending,Agent A,2025-11-17,2025-11-17,0,4,Low,Call,Canada
+757,1820,Login Issue,Pending,Agent C,2026-04-08,2026-04-09,1,3,Low,Chat,Canada
+758,1857,Slow Performance,Escalated,Agent A,2025-12-03,2025-12-04,1,5,Medium,Chat,Canada
+759,1492,Slow Performance,Resolved,Agent D,2025-12-07,2025-12-07,0,1,Medium,Chat,India
+760,1103,Bug,Escalated,Agent C,2026-02-26,2026-03-03,5,5,High,Chat,Canada
+761,1575,Login Issue,Resolved,Agent C,2026-02-04,2026-02-09,5,1,High,Chat,US
+762,1584,Account Locked,Resolved,Agent D,2026-04-10,2026-04-15,5,2,Low,Chat,Canada
+763,1393,Payment Failure,Resolved,Agent C,2026-03-12,2026-03-14,2,2,Medium,Email,Canada
+764,1249,Login Issue,Pending,Agent B,2026-03-01,2026-03-01,0,4,Medium,Email,Canada
+765,1142,Login Issue,Pending,Agent C,2026-01-07,2026-01-07,0,2,Medium,Call,US
+766,1614,Account Locked,Resolved,Agent B,2026-04-05,2026-04-09,4,3,Low,Chat,India
+767,1305,Slow Performance,Pending,Agent B,2026-02-05,2026-02-08,3,1,Medium,Chat,UK
+768,1891,Login Issue,Escalated,Agent B,2025-11-06,2025-11-06,0,1,High,Email,India
+769,1041,Bug,Pending,Agent B,2025-10-30,2025-11-02,3,4,Low,Call,US
+770,1394,Bug,Escalated,Agent D,2026-02-17,2026-02-20,3,2,Low,Chat,US
+771,1368,Slow Performance,Resolved,Agent D,2025-10-16,2025-10-17,1,4,Medium,Email,Canada
+772,1126,Bug,Resolved,Agent B,2025-12-17,2025-12-18,1,5,High,Email,US
+773,1021,Slow Performance,Resolved,Agent B,2026-02-10,2026-02-14,4,4,Low,Call,UK
+774,1308,Account Locked,Escalated,Agent A,2025-12-26,2025-12-26,0,4,Medium,Call,Canada
+775,1083,Bug,Escalated,Agent C,2026-02-05,2026-02-07,2,1,High,Call,Canada
+776,1668,Account Locked,Escalated,Agent B,2025-11-20,2025-11-20,0,4,Low,Email,UK
+777,1803,Bug,Pending,Agent B,2026-02-01,2026-02-05,4,4,High,Call,Canada
+778,1347,Bug,Pending,Agent C,2025-10-18,2025-10-22,4,3,Low,Chat,UK
+779,1363,Bug,Escalated,Agent D,2026-02-01,2026-02-01,0,4,Low,Email,US
+780,1853,Login Issue,Pending,Agent C,2025-12-10,2025-12-12,2,1,Medium,Chat,US
+781,1553,Login Issue,Resolved,Agent D,2025-11-21,2025-11-21,0,2,High,Chat,Canada
+782,1305,Login Issue,Pending,Agent D,2025-11-28,2025-11-29,1,5,Low,Call,India
+783,1692,Slow Performance,Resolved,Agent B,2025-12-27,2025-12-27,0,3,Low,Chat,India
+784,1098,Account Locked,Resolved,Agent A,2026-02-28,2026-02-28,0,3,High,Chat,Canada
+785,1232,Login Issue,Escalated,Agent D,2026-04-02,2026-04-03,1,2,Medium,Email,US
+786,1600,Payment Failure,Escalated,Agent A,2026-01-06,2026-01-07,1,1,Low,Call,Canada
+787,1852,Slow Performance,Escalated,Agent B,2025-11-14,2025-11-18,4,3,High,Email,UK
+788,1360,Account Locked,Escalated,Agent B,2025-11-25,2025-11-25,0,3,Low,Email,US
+789,1402,Login Issue,Pending,Agent A,2026-01-01,2026-01-05,4,3,Medium,Email,Canada
+790,1024,Payment Failure,Pending,Agent B,2026-04-06,2026-04-07,1,3,Low,Chat,Canada
+791,1128,Payment Failure,Escalated,Agent D,2025-12-01,2025-12-06,5,3,High,Email,India
+792,1032,Bug,Escalated,Agent B,2025-12-23,2025-12-28,5,3,Medium,Email,US
+793,1990,Account Locked,Resolved,Agent D,2026-01-12,2026-01-16,4,1,Low,Chat,US
+794,1846,Slow Performance,Pending,Agent D,2026-02-08,2026-02-08,0,2,Medium,Call,UK
+795,1921,Account Locked,Resolved,Agent D,2025-12-14,2025-12-19,5,4,Low,Email,Canada
+796,1580,Bug,Escalated,Agent B,2025-11-20,2025-11-22,2,1,Low,Chat,India
+797,1495,Account Locked,Resolved,Agent B,2026-03-05,2026-03-06,1,5,Medium,Call,Canada
+798,1393,Payment Failure,Resolved,Agent C,2025-12-20,2025-12-20,0,2,Medium,Chat,India
+799,1581,Slow Performance,Resolved,Agent B,2026-03-20,2026-03-22,2,1,Low,Chat,US
+800,1888,Bug,Escalated,Agent D,2026-02-23,2026-02-27,4,3,Medium,Email,Canada
+801,1549,Slow Performance,Escalated,Agent D,2026-04-11,2026-04-16,5,4,Medium,Call,India
+802,1013,Account Locked,Pending,Agent D,2026-03-28,2026-03-28,0,5,Low,Call,US
+803,1771,Login Issue,Resolved,Agent B,2026-01-26,2026-01-27,1,4,High,Call,India
+804,1524,Payment Failure,Resolved,Agent B,2025-10-15,2025-10-18,3,2,High,Call,US
+805,1193,Account Locked,Pending,Agent C,2026-03-05,2026-03-10,5,2,High,Chat,India
+806,1198,Slow Performance,Pending,Agent B,2025-12-23,2025-12-24,1,1,High,Call,Canada
+807,1052,Slow Performance,Pending,Agent C,2026-01-30,2026-02-01,2,4,High,Email,Canada
+808,1659,Slow Performance,Pending,Agent A,2026-02-12,2026-02-17,5,4,High,Call,Canada
+809,1561,Bug,Escalated,Agent C,2025-10-23,2025-10-23,0,2,Medium,Call,UK
+810,1425,Login Issue,Resolved,Agent A,2025-10-16,2025-10-20,4,2,Medium,Email,UK
+811,1548,Account Locked,Escalated,Agent A,2026-04-09,2026-04-13,4,3,High,Call,UK
+812,1797,Payment Failure,Escalated,Agent A,2025-12-17,2025-12-17,0,4,Medium,Chat,UK
+813,1093,Slow Performance,Resolved,Agent D,2026-02-08,2026-02-08,0,5,Low,Email,Canada
+814,1648,Slow Performance,Resolved,Agent A,2025-12-11,2025-12-16,5,3,Low,Call,UK
+815,1701,Account Locked,Resolved,Agent D,2025-12-05,2025-12-05,0,3,Low,Email,India
+816,1443,Account Locked,Pending,Agent A,2026-01-14,2026-01-19,5,4,Medium,Email,US
+817,1824,Bug,Escalated,Agent A,2026-03-28,2026-03-30,2,2,Low,Chat,India
+818,1631,Payment Failure,Pending,Agent A,2026-03-02,2026-03-03,1,5,Low,Call,India
+819,1197,Slow Performance,Pending,Agent A,2025-12-30,2025-12-31,1,4,Low,Email,US
+820,1466,Bug,Escalated,Agent A,2025-10-29,2025-10-31,2,2,High,Email,US
+821,1575,Bug,Escalated,Agent A,2026-04-03,2026-04-08,5,4,Low,Call,Canada
+822,1547,Login Issue,Escalated,Agent C,2025-10-18,2025-10-19,1,4,Medium,Email,India
+823,1589,Bug,Escalated,Agent B,2026-01-18,2026-01-19,1,3,Medium,Chat,India
+824,1868,Login Issue,Pending,Agent C,2026-02-18,2026-02-18,0,4,Low,Chat,UK
+825,1976,Payment Failure,Pending,Agent A,2025-11-10,2025-11-11,1,2,High,Email,US
+826,1505,Slow Performance,Resolved,Agent B,2025-11-18,2025-11-18,0,2,High,Call,UK
+827,1833,Bug,Pending,Agent C,2026-01-24,2026-01-28,4,1,Low,Email,US
+828,1020,Slow Performance,Resolved,Agent D,2025-10-21,2025-10-24,3,3,Low,Call,US
+829,1559,Slow Performance,Escalated,Agent D,2025-11-05,2025-11-06,1,5,High,Email,India
+830,1303,Bug,Pending,Agent A,2025-12-31,2026-01-02,2,4,Low,Chat,India
+831,1858,Payment Failure,Escalated,Agent A,2025-11-01,2025-11-02,1,1,Low,Call,US
+832,1303,Bug,Resolved,Agent B,2026-02-08,2026-02-09,1,3,Medium,Email,US
+833,1489,Login Issue,Resolved,Agent C,2026-02-10,2026-02-11,1,3,High,Call,Canada
+834,1839,Slow Performance,Escalated,Agent D,2025-11-28,2025-11-29,1,4,High,Email,US
+835,1283,Slow Performance,Escalated,Agent A,2026-04-05,2026-04-09,4,1,High,Call,UK
+836,1837,Bug,Resolved,Agent A,2026-04-02,2026-04-06,4,2,Medium,Email,UK
+837,1130,Payment Failure,Pending,Agent D,2025-12-27,2025-12-31,4,2,High,Call,US
+838,1724,Account Locked,Escalated,Agent A,2025-12-09,2025-12-12,3,1,High,Email,Canada
+839,1198,Slow Performance,Escalated,Agent A,2026-02-05,2026-02-10,5,5,High,Chat,UK
+840,1724,Account Locked,Pending,Agent A,2026-02-11,2026-02-13,2,5,Medium,Call,US
+841,1592,Account Locked,Escalated,Agent C,2026-02-18,2026-02-20,2,1,High,Chat,UK
+842,1369,Account Locked,Escalated,Agent D,2025-10-23,2025-10-27,4,5,Low,Call,UK
+843,1602,Payment Failure,Escalated,Agent C,2025-12-07,2025-12-07,0,4,High,Email,US
+844,1877,Payment Failure,Escalated,Agent B,2026-03-06,2026-03-08,2,4,Low,Chat,Canada
+845,1221,Bug,Escalated,Agent B,2025-12-08,2025-12-10,2,1,High,Email,Canada
+846,1616,Bug,Resolved,Agent B,2025-12-26,2025-12-26,0,4,Medium,Call,UK
+847,1340,Payment Failure,Escalated,Agent A,2026-04-06,2026-04-06,0,4,High,Email,Canada
+848,1027,Payment Failure,Pending,Agent A,2026-03-23,2026-03-26,3,2,Medium,Email,UK
+849,1593,Login Issue,Resolved,Agent C,2025-11-13,2025-11-18,5,4,Low,Chat,Canada
+850,1974,Slow Performance,Resolved,Agent D,2026-03-07,2026-03-10,3,4,High,Email,Canada
+851,1506,Slow Performance,Pending,Agent A,2025-10-15,2025-10-15,0,3,High,Call,US
+852,1905,Slow Performance,Pending,Agent D,2026-03-09,2026-03-14,5,2,High,Email,US
+853,1925,Login Issue,Resolved,Agent C,2025-10-28,2025-10-28,0,3,Medium,Call,UK
+854,1219,Slow Performance,Pending,Agent C,2025-12-22,2025-12-25,3,2,Medium,Email,India
+855,1059,Account Locked,Escalated,Agent D,2026-03-26,2026-03-31,5,5,High,Chat,UK
+856,1684,Bug,Pending,Agent C,2026-01-20,2026-01-22,2,4,Medium,Chat,US
+857,1921,Payment Failure,Escalated,Agent A,2025-11-04,2025-11-06,2,5,High,Call,India
+858,1350,Login Issue,Escalated,Agent A,2026-02-08,2026-02-12,4,1,Medium,Chat,UK
+859,1032,Bug,Resolved,Agent B,2025-12-29,2025-12-29,0,5,Low,Call,India
+860,1566,Bug,Pending,Agent D,2025-12-03,2025-12-05,2,4,Low,Chat,India
+861,1316,Account Locked,Escalated,Agent C,2026-01-23,2026-01-23,0,4,Low,Email,US
+862,1588,Login Issue,Pending,Agent B,2026-02-24,2026-02-26,2,5,Low,Chat,Canada
+863,1359,Bug,Pending,Agent A,2025-10-28,2025-11-01,4,2,Low,Email,UK
+864,1680,Account Locked,Resolved,Agent D,2026-02-03,2026-02-07,4,5,High,Call,UK
+865,1228,Login Issue,Escalated,Agent B,2025-10-17,2025-10-20,3,4,Medium,Call,Canada
+866,1218,Login Issue,Resolved,Agent A,2026-02-03,2026-02-03,0,4,Low,Call,Canada
+867,1497,Account Locked,Escalated,Agent A,2026-03-02,2026-03-06,4,4,Low,Chat,UK
+868,1718,Bug,Escalated,Agent B,2025-10-27,2025-10-27,0,2,Low,Email,India
+869,1014,Slow Performance,Escalated,Agent A,2026-01-29,2026-02-02,4,4,Medium,Call,US
+870,1338,Bug,Escalated,Agent C,2026-02-10,2026-02-12,2,3,Low,Chat,UK
+871,1207,Payment Failure,Pending,Agent C,2025-12-04,2025-12-07,3,1,Low,Chat,US
+872,1994,Payment Failure,Escalated,Agent C,2025-10-20,2025-10-21,1,1,Low,Chat,US
+873,1286,Payment Failure,Resolved,Agent A,2025-12-14,2025-12-18,4,5,Medium,Call,Canada
+874,1031,Login Issue,Resolved,Agent A,2025-12-24,2025-12-28,4,2,High,Call,India
+875,1044,Payment Failure,Resolved,Agent B,2026-02-03,2026-02-03,0,4,High,Chat,India
+876,1878,Login Issue,Resolved,Agent B,2026-02-02,2026-02-02,0,2,Low,Email,India
+877,1667,Payment Failure,Resolved,Agent B,2026-01-20,2026-01-20,0,3,High,Email,India
+878,1355,Bug,Resolved,Agent C,2026-02-21,2026-02-22,1,2,High,Email,UK
+879,1103,Payment Failure,Resolved,Agent C,2025-11-15,2025-11-20,5,4,Low,Call,Canada
+880,1553,Account Locked,Pending,Agent D,2026-02-02,2026-02-03,1,5,Medium,Email,US
+881,1148,Payment Failure,Pending,Agent C,2025-11-06,2025-11-09,3,4,Medium,Call,US
+882,1700,Login Issue,Pending,Agent A,2026-02-20,2026-02-21,1,1,High,Call,Canada
+883,1160,Login Issue,Resolved,Agent A,2025-12-12,2025-12-12,0,1,Low,Email,UK
+884,1692,Account Locked,Resolved,Agent B,2025-11-24,2025-11-26,2,3,Low,Chat,UK
+885,1381,Slow Performance,Pending,Agent B,2026-01-17,2026-01-21,4,4,Medium,Email,Canada
+886,1744,Payment Failure,Pending,Agent C,2025-12-10,2025-12-10,0,1,High,Call,India
+887,1112,Bug,Pending,Agent C,2026-01-05,2026-01-09,4,4,Medium,Chat,US
+888,1358,Login Issue,Pending,Agent B,2026-01-04,2026-01-04,0,5,Medium,Chat,UK
+889,1500,Bug,Pending,Agent A,2026-03-28,2026-03-30,2,2,High,Chat,India
+890,1328,Slow Performance,Resolved,Agent A,2025-12-08,2025-12-13,5,1,High,Chat,US
+891,1546,Login Issue,Resolved,Agent C,2025-12-23,2025-12-26,3,4,High,Email,US
+892,1876,Bug,Pending,Agent B,2026-02-12,2026-02-16,4,5,Medium,Email,US
+893,1602,Bug,Resolved,Agent A,2026-01-26,2026-01-31,5,2,Medium,Email,UK
+894,1151,Bug,Resolved,Agent D,2025-10-30,2025-10-31,1,1,High,Email,India
+895,1404,Bug,Escalated,Agent B,2025-12-13,2025-12-14,1,3,Low,Chat,Canada
+896,1338,Bug,Escalated,Agent A,2025-12-20,2025-12-23,3,2,Medium,Chat,US
+897,1643,Slow Performance,Resolved,Agent B,2025-11-02,2025-11-02,0,4,High,Call,US
+898,1119,Bug,Escalated,Agent B,2025-12-27,2026-01-01,5,1,Medium,Call,India
+899,1361,Payment Failure,Escalated,Agent D,2026-01-13,2026-01-17,4,2,High,Email,UK
+900,1296,Slow Performance,Escalated,Agent B,2026-02-25,2026-02-26,1,3,Medium,Email,US
+901,1207,Payment Failure,Escalated,Agent C,2026-03-22,2026-03-22,0,5,High,Call,US
+902,1400,Login Issue,Pending,Agent B,2025-10-19,2025-10-23,4,3,Low,Chat,US
+903,1675,Account Locked,Escalated,Agent C,2026-03-19,2026-03-19,0,5,Low,Call,UK
+904,1319,Bug,Escalated,Agent A,2026-01-29,2026-02-03,5,1,Medium,Chat,UK
+905,1898,Slow Performance,Escalated,Agent B,2025-10-23,2025-10-27,4,2,Low,Call,UK
+906,1344,Bug,Pending,Agent C,2025-11-23,2025-11-25,2,1,Medium,Chat,US
+907,1743,Payment Failure,Escalated,Agent B,2025-10-17,2025-10-20,3,5,Low,Email,UK
+908,1927,Bug,Resolved,Agent C,2025-11-19,2025-11-19,0,4,High,Call,US
+909,1209,Login Issue,Escalated,Agent D,2025-10-15,2025-10-18,3,3,High,Chat,US
+910,1103,Slow Performance,Escalated,Agent A,2026-02-25,2026-02-27,2,4,Medium,Email,India
+911,1901,Account Locked,Pending,Agent B,2026-04-12,2026-04-12,0,5,High,Call,Canada
+912,1531,Login Issue,Pending,Agent B,2026-04-04,2026-04-09,5,4,Low,Chat,US
+913,1407,Slow Performance,Pending,Agent C,2025-10-18,2025-10-19,1,5,Medium,Chat,India
+914,1376,Bug,Pending,Agent C,2026-02-14,2026-02-14,0,4,Medium,Email,Canada
+915,1085,Payment Failure,Pending,Agent C,2026-02-26,2026-03-02,4,2,High,Chat,India
+916,1078,Payment Failure,Escalated,Agent A,2026-01-05,2026-01-08,3,2,Medium,Call,UK
+917,1281,Account Locked,Pending,Agent C,2025-10-20,2025-10-20,0,3,Medium,Call,US
+918,1278,Slow Performance,Resolved,Agent A,2025-12-20,2025-12-24,4,2,Medium,Call,UK
+919,1020,Account Locked,Resolved,Agent D,2025-10-27,2025-10-28,1,3,Low,Email,India
+920,1513,Bug,Resolved,Agent C,2025-10-14,2025-10-15,1,3,High,Chat,US
+921,1440,Account Locked,Resolved,Agent B,2026-02-25,2026-02-26,1,4,Medium,Call,India
+922,1239,Account Locked,Resolved,Agent D,2025-10-29,2025-10-29,0,5,Low,Email,Canada
+923,1802,Payment Failure,Pending,Agent A,2025-11-23,2025-11-26,3,2,Medium,Call,India
+924,1235,Payment Failure,Pending,Agent A,2025-11-12,2025-11-16,4,4,Low,Call,India
+925,1630,Account Locked,Escalated,Agent B,2025-11-17,2025-11-21,4,4,Medium,Email,India
+926,1463,Login Issue,Pending,Agent B,2026-02-21,2026-02-23,2,1,High,Email,UK
+927,1699,Payment Failure,Escalated,Agent A,2026-01-25,2026-01-27,2,3,Low,Chat,India
+928,1221,Slow Performance,Pending,Agent A,2026-02-08,2026-02-13,5,5,Low,Chat,US
+929,1891,Payment Failure,Escalated,Agent D,2025-11-20,2025-11-20,0,4,High,Email,US
+930,1124,Slow Performance,Resolved,Agent A,2026-03-06,2026-03-11,5,4,Low,Call,US
+931,1871,Payment Failure,Escalated,Agent B,2026-01-23,2026-01-27,4,2,High,Call,Canada
+932,1149,Slow Performance,Pending,Agent B,2025-11-14,2025-11-14,0,5,High,Chat,US
+933,1372,Payment Failure,Pending,Agent A,2025-11-11,2025-11-15,4,2,High,Call,India
+934,1709,Login Issue,Resolved,Agent A,2026-01-11,2026-01-13,2,2,High,Chat,US
+935,1845,Slow Performance,Resolved,Agent A,2026-02-21,2026-02-21,0,5,Low,Call,Canada
+936,1066,Login Issue,Resolved,Agent A,2026-02-11,2026-02-14,3,2,Medium,Email,UK
+937,1611,Slow Performance,Escalated,Agent D,2026-03-16,2026-03-19,3,4,Medium,Email,Canada
+938,1533,Payment Failure,Escalated,Agent B,2026-03-16,2026-03-16,0,4,High,Chat,US
+939,1492,Account Locked,Pending,Agent D,2026-02-11,2026-02-13,2,3,High,Call,India
+940,1722,Payment Failure,Pending,Agent D,2026-02-26,2026-03-02,4,3,High,Chat,UK
+941,1399,Payment Failure,Escalated,Agent D,2026-02-25,2026-03-01,4,1,Low,Call,UK
+942,1991,Account Locked,Resolved,Agent A,2025-12-05,2025-12-07,2,5,Low,Call,US
+943,1509,Bug,Resolved,Agent A,2025-11-26,2025-11-27,1,5,High,Chat,US
+944,1110,Login Issue,Escalated,Agent D,2026-01-30,2026-01-30,0,5,Medium,Chat,Canada
+945,1154,Payment Failure,Pending,Agent D,2025-11-09,2025-11-12,3,4,Low,Chat,US
+946,1416,Slow Performance,Resolved,Agent A,2025-11-06,2025-11-06,0,5,High,Call,UK
+947,1749,Slow Performance,Resolved,Agent B,2025-11-30,2025-12-03,3,2,High,Email,UK
+948,1961,Account Locked,Escalated,Agent C,2026-01-18,2026-01-22,4,5,Low,Chat,India
+949,1243,Login Issue,Resolved,Agent B,2026-03-15,2026-03-17,2,5,High,Email,US
+950,1550,Slow Performance,Resolved,Agent D,2025-11-16,2025-11-16,0,4,Medium,Chat,India
+951,1927,Payment Failure,Resolved,Agent C,2026-02-23,2026-02-28,5,1,Low,Call,India
+952,1999,Bug,Resolved,Agent D,2026-01-07,2026-01-10,3,5,Low,Call,UK
+953,1082,Account Locked,Resolved,Agent D,2026-04-02,2026-04-04,2,4,Medium,Chat,US
+954,1485,Slow Performance,Resolved,Agent B,2025-12-18,2025-12-20,2,2,High,Call,UK
+955,1506,Account Locked,Resolved,Agent A,2026-01-22,2026-01-24,2,5,High,Call,US
+956,1972,Account Locked,Pending,Agent C,2026-02-19,2026-02-22,3,2,High,Chat,US
+957,1760,Slow Performance,Escalated,Agent C,2026-01-07,2026-01-09,2,2,High,Call,UK
+958,1334,Account Locked,Resolved,Agent B,2025-11-04,2025-11-08,4,3,Medium,Email,Canada
+959,1843,Payment Failure,Escalated,Agent A,2025-12-23,2025-12-27,4,3,Medium,Chat,UK
+960,1022,Account Locked,Resolved,Agent C,2025-10-21,2025-10-21,0,3,High,Chat,Canada
+961,1507,Login Issue,Resolved,Agent C,2025-11-17,2025-11-22,5,1,Medium,Email,Canada
+962,1219,Bug,Resolved,Agent A,2025-11-03,2025-11-07,4,1,Medium,Call,India
+963,1428,Login Issue,Escalated,Agent C,2026-02-14,2026-02-17,3,2,High,Email,US
+964,1516,Payment Failure,Resolved,Agent B,2026-01-19,2026-01-19,0,5,Medium,Email,India
+965,1461,Login Issue,Escalated,Agent A,2025-11-22,2025-11-23,1,1,Low,Chat,Canada
+966,1015,Account Locked,Pending,Agent D,2025-12-28,2026-01-01,4,2,Medium,Email,US
+967,1203,Login Issue,Pending,Agent A,2025-10-29,2025-11-03,5,5,Low,Call,UK
+968,1067,Slow Performance,Escalated,Agent A,2026-04-07,2026-04-09,2,5,High,Email,UK
+969,1263,Bug,Pending,Agent C,2026-03-26,2026-03-31,5,4,Low,Email,US
+970,1628,Slow Performance,Resolved,Agent D,2026-03-06,2026-03-08,2,5,Medium,Email,India
+971,1652,Login Issue,Pending,Agent B,2025-12-14,2025-12-14,0,2,Medium,Call,Canada
+972,1187,Payment Failure,Escalated,Agent D,2025-11-24,2025-11-24,0,5,High,Email,India
+973,1987,Payment Failure,Pending,Agent D,2026-02-26,2026-02-28,2,3,High,Chat,US
+974,1744,Account Locked,Pending,Agent A,2026-01-31,2026-02-01,1,2,High,Chat,Canada
+975,1577,Login Issue,Escalated,Agent A,2026-04-05,2026-04-06,1,2,Medium,Chat,US
+976,1035,Bug,Resolved,Agent A,2026-03-03,2026-03-06,3,4,High,Email,India
+977,1768,Login Issue,Pending,Agent B,2026-01-24,2026-01-26,2,4,Medium,Email,UK
+978,1144,Slow Performance,Resolved,Agent C,2025-12-04,2025-12-09,5,3,Medium,Call,UK
+979,1489,Login Issue,Pending,Agent A,2025-12-17,2025-12-21,4,3,Medium,Call,India
+980,1000,Bug,Pending,Agent D,2026-03-11,2026-03-15,4,3,High,Email,Canada
+981,1538,Account Locked,Escalated,Agent C,2025-11-21,2025-11-25,4,2,Medium,Email,UK
+982,1248,Account Locked,Resolved,Agent C,2025-11-14,2025-11-19,5,2,Medium,Call,Canada
+983,1804,Slow Performance,Pending,Agent D,2026-03-07,2026-03-07,0,2,Medium,Call,Canada
+984,1383,Slow Performance,Escalated,Agent C,2026-03-29,2026-03-31,2,5,High,Email,India
+985,1942,Account Locked,Escalated,Agent B,2026-01-06,2026-01-10,4,3,Medium,Chat,Canada
+986,1174,Slow Performance,Resolved,Agent A,2026-02-18,2026-02-21,3,4,Medium,Email,UK
+987,1876,Bug,Pending,Agent A,2025-12-30,2026-01-01,2,3,High,Email,Canada
+988,1396,Login Issue,Pending,Agent B,2025-10-29,2025-10-29,0,2,Medium,Email,US
+989,1692,Bug,Resolved,Agent B,2026-04-05,2026-04-05,0,1,Low,Email,UK
+990,1397,Slow Performance,Escalated,Agent D,2025-11-13,2025-11-16,3,2,High,Chat,India
+991,1210,Bug,Resolved,Agent D,2025-12-06,2025-12-11,5,4,Low,Call,Canada
+992,1159,Login Issue,Pending,Agent A,2025-11-26,2025-11-30,4,2,Low,Call,India
+993,1134,Payment Failure,Resolved,Agent D,2026-01-18,2026-01-23,5,3,Low,Email,US
+994,1445,Bug,Pending,Agent B,2025-10-17,2025-10-21,4,1,Low,Chat,US
+995,1124,Login Issue,Resolved,Agent C,2026-01-27,2026-02-01,5,5,Medium,Call,US
+996,1663,Payment Failure,Escalated,Agent D,2026-01-21,2026-01-22,1,3,High,Chat,UK
+997,1120,Account Locked,Pending,Agent A,2026-02-01,2026-02-01,0,1,Low,Chat,US
+998,1664,Bug,Pending,Agent A,2025-10-15,2025-10-20,5,2,High,Chat,US
+999,1885,Bug,Pending,Agent C,2025-10-20,2025-10-21,1,3,Medium,Call,Canada
+1000,1421,Account Locked,Resolved,Agent B,2025-12-11,2025-12-16,5,3,Medium,Call,UK
